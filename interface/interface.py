@@ -6,7 +6,8 @@ from pyfiglet import Figlet
 from character_creator.character import Character
 from character_creator.constants import SkillNames
 from character_creator.utils import dice_roller, pickler
-from interface_constants import TermFormat, Actions
+from .interface_constants import TermFormat, Actions
+from .interface_character_creation import create_character
 
 
 
@@ -23,7 +24,7 @@ def ask_type():
         case Actions.ROLL_DICE:
             roll_dice()
         case Actions.CREATE_CHARACTER:
-            create_character()
+            create_character_option()
         case Actions.LOAD_CHARACTER:
             load_character()
         case Actions.EXIT, _:
@@ -51,14 +52,9 @@ def roll_dice():
     now_what(Actions.ROLL_AGAIN, roll_dice)
 
 
-def create_character():
-    base_character_info = PyInquirer.prompt([{
-        "type": "input", "name": "character_name",
-        "message": "Character name"
-    }])
-    new_char = Character(base_character_info["character_name"])
-    pickler.pickle_character(new_char, new_char.name)
-    now_what(Actions.CREATE_CHARACTER, create_character)
+def create_character_option():
+    create_character()
+    now_what(Actions.CREATE_CHARACTER, create_character_option)
 
 
 def load_character():
@@ -72,7 +68,7 @@ def load_character():
     print(char.get_skill_rank(SkillNames.COOL))
 
 
-def now_what(current_action: str, action, character: Character=None):
+def now_what(current_action: str, action: Actions, character: Character=None):
     what_next = PyInquirer.prompt([{
         "type": "list", "name": "up_next",
         "message": "What would you like to do?",

@@ -1,4 +1,6 @@
-class TermFormat:
+from ..utils.super_enum import SuperEnum
+
+class TermFormat(SuperEnum):
     GRAY = '\033[90m'
     RED = '\033[91m'
     GREEN = '\033[92m'
@@ -15,7 +17,7 @@ class TermFormat:
     UNDERLINE = '\033[4m'
     SLOW_BLINK = '\033[5m'
 
-class Actions:
+class Actions(SuperEnum):
     ROLL_DICE = "Roll some dice"
     ROLL_AGAIN = "Roll again"
     CREATE_CHARACTER = "Make a character"

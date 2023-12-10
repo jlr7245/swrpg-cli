@@ -1,6 +1,6 @@
-from enum import Enum
+from ..utils.super_enum import SuperEnum
 
-class Characteristics(Enum):
+class Characteristics(SuperEnum):
     BRAWN = "Brawn"
     AGILITY = "Agility"
     INTELLECT = "Intellect"
@@ -8,7 +8,7 @@ class Characteristics(Enum):
     WILLPOWER = "Willpower"
     PRESENCE = "Presence"
 
-class SkillNames(Enum):
+class SkillNames(SuperEnum):
     ASTROGATION = "Astrogation"
     ATHLETICS = "Athletics"
     BRAWL = "Brawl"
