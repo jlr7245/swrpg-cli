@@ -2,6 +2,7 @@ import random
 from data import dice_sides
 
 def dice_roller(sides: int) -> int:
+    """Rolls a die."""
     rolled_number = random.randrange(1, sides)
     return rolled_number
 
@@ -35,7 +36,6 @@ def reconcile_results(results_list):
     for result in results_list:
         for key, value in result.items():
             raw[key] += value
-    print(raw)
     total_success = (raw["success"] + raw["triumph"]) - (raw["failure"] + raw["despair"])
     total_advantage = raw["advantage"] - raw["threat"]
     success_results = { "success": total_success } if total_success > 0 else { "failure": abs(total_success) }
@@ -50,7 +50,6 @@ def reconcile_results(results_list):
 
 def stringify_results(results):
     results_list = []
-    print(results)
     for key, value in results.items():
         if value > 0:
             results_list.append(f"{value} {key}")
