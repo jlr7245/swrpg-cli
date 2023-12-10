@@ -1,10 +1,12 @@
 import random
 from data import dice_sides
 
+
 def dice_roller(sides: int) -> int:
     """Rolls a die."""
     rolled_number = random.randrange(1, sides)
     return rolled_number
+
 
 def dice_roller_swrpg(types: str) -> str:
     """Rolls a number of swrpg type dice. For example, a roll with three
@@ -22,6 +24,7 @@ def dice_roller_swrpg(types: str) -> str:
     reconciled = reconcile_results(results_list)
     return stringify_results(reconciled)
 
+
 def reconcile_results(results_list):
     raw = {
         "success": 0,
@@ -36,10 +39,13 @@ def reconcile_results(results_list):
     for result in results_list:
         for key, value in result.items():
             raw[key] += value
-    total_success = (raw["success"] + raw["triumph"]) - (raw["failure"] + raw["despair"])
+    total_success = (raw["success"] + raw["triumph"]) - \
+        (raw["failure"] + raw["despair"])
     total_advantage = raw["advantage"] - raw["threat"]
-    success_results = { "success": total_success } if total_success > 0 else { "failure": abs(total_success) }
-    advantage_results = { "advantage": total_advantage} if total_advantage > 0 else {"disadvantage": abs(total_advantage)}
+    success_results = {"success": total_success} if total_success > 0 else {
+        "failure": abs(total_success)}
+    advantage_results = {"advantage": total_advantage} if total_advantage > 0 else {
+        "disadvantage": abs(total_advantage)}
     final_results = {
         "triumph": raw["triumph"], "despair": raw["despair"],
         "dark": raw["dark"], "light": raw["light"],
@@ -48,12 +54,10 @@ def reconcile_results(results_list):
     }
     return final_results
 
+
 def stringify_results(results):
     results_list = []
     for key, value in results.items():
         if value > 0:
             results_list.append(f"{value} {key}")
     return "; ".join(results_list)
-
-
-
