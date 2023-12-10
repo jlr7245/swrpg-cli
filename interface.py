@@ -1,6 +1,7 @@
 from __future__ import print_function, unicode_literals
 
 import PyInquirer
+from pyfiglet import Figlet
 
 from character_creator.utils import dice_roller
 from interface_constants import TermFormat, Actions
@@ -8,29 +9,38 @@ from interface_constants import TermFormat, Actions
 
 
 def ask_type():
-    init_questions = [
+    font = Figlet(font='starwars')
+    print(font.renderText("SWCLI"))
+
+    init_answers = PyInquirer.prompt([
         {"type": "list", "name": "action",
          "message": "Welcome to the SWRPG command line tool! What would you like to do?",
          "choices": [Actions.CREATE_CHARACTER, Actions.ROLL_DICE, Actions.EXIT]}
-    ]
-
-    init_answers = PyInquirer.prompt(init_questions)
+    ])
     match init_answers["action"]:
         case Actions.ROLL_DICE:
             roll_dice()
         case Actions.CREATE_CHARACTER:
             create_character()
         case Actions.EXIT, _:
-            print("Bye!")
+            print("👋 Bye!")
 
 
 def roll_dice():
-    init_questions = [
-        {"type": "input", "name": "dice_input",
-         "message": "Please enter the dice you'd like to roll. Available dice: b, s, a, d, p, c, f \n"}
-    ]
 
-    init_answers = PyInquirer.prompt(init_questions)
+    color_coded_die_types = (f"{TermFormat.LIGHT_CYAN}{TermFormat.BOLD}b{TermFormat.ENDC}, "
+                             f"{TermFormat.GRAY}{TermFormat.BOLD}s{TermFormat.ENDC}, "
+                             f"{TermFormat.GREEN}{TermFormat.BOLD}a{TermFormat.ENDC}, "
+                             f"{TermFormat.PURPLE}{TermFormat.BOLD}d{TermFormat.ENDC}, "
+                             f"{TermFormat.YELLOW}{TermFormat.BOLD}p{TermFormat.ENDC}, "
+                             f"{TermFormat.RED}{TermFormat.BOLD}c{TermFormat.ENDC}, "
+                             f"{TermFormat.BOLD}f{TermFormat.ENDC}")
+    print(f"> Available dice: {color_coded_die_types}")
+
+    init_answers = PyInquirer.prompt([
+        {"type": "input", "name": "dice_input",
+         "message": f"Please enter the dice you'd like to roll."}
+    ])
     output = dice_roller.dice_roller_swrpg(init_answers["dice_input"])
     print(f"> You rolled: {TermFormat.PURPLE}{TermFormat.BOLD}{output}{TermFormat.ENDC}")
 
@@ -53,10 +63,8 @@ def now_what(current_action: str, action):
         action()
     elif next_action == Actions.RETURN_HOME:
         ask_type()
-    elif next_action == Actions.EXIT:
-        print("Bye!")
     else:
-        print("Bye!")
+        print("👋 Bye!")
 
 
 if __name__ == "__main__":

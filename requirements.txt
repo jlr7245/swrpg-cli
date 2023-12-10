@@ -1,4 +1,5 @@
 prompt-toolkit==1.0.14
+pyfiglet==1.0.2
 Pygments==2.17.2
 PyInquirer==1.0.3
 regex==2023.10.3
