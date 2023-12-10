@@ -34,7 +34,7 @@ def roll_dice():
     output = dice_roller.dice_roller_swrpg(init_answers["dice_input"])
     print(f"> You rolled: {TermFormat.PURPLE}{TermFormat.BOLD}{output}{TermFormat.ENDC}")
 
-    now_what("Roll again", roll_dice)
+    now_what(Actions.ROLL_AGAIN, roll_dice)
 
 
 def create_character():
