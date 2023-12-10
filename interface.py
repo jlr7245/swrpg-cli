@@ -3,7 +3,9 @@ from __future__ import print_function, unicode_literals
 import PyInquirer
 from pyfiglet import Figlet
 
-from character_creator.utils import dice_roller
+from character_creator.character import Character
+from character_creator.constants import SkillNames
+from character_creator.utils import dice_roller, pickler
 from interface_constants import TermFormat, Actions
 
 
@@ -15,13 +17,15 @@ def ask_type():
     init_answers = PyInquirer.prompt([
         {"type": "list", "name": "action",
          "message": "Welcome to the SWRPG command line tool! What would you like to do?",
-         "choices": [Actions.CREATE_CHARACTER, Actions.ROLL_DICE, Actions.EXIT]}
+         "choices": [Actions.CREATE_CHARACTER, Actions.LOAD_CHARACTER, Actions.ROLL_DICE, Actions.EXIT]}
     ])
     match init_answers["action"]:
         case Actions.ROLL_DICE:
             roll_dice()
         case Actions.CREATE_CHARACTER:
             create_character()
+        case Actions.LOAD_CHARACTER:
+            load_character()
         case Actions.EXIT, _:
             print("👋 Bye!")
 
@@ -48,11 +52,27 @@ def roll_dice():
 
 
 def create_character():
-    print("Not implemented yet!")
+    base_character_info = PyInquirer.prompt([{
+        "type": "input", "name": "character_name",
+        "message": "Character name"
+    }])
+    new_char = Character(base_character_info["character_name"])
+    pickler.pickle_character(new_char, new_char.name)
     now_what(Actions.CREATE_CHARACTER, create_character)
 
 
-def now_what(current_action: str, action):
+def load_character():
+    base_character_info = PyInquirer.prompt([{
+        "type": "input", "name": "character_name",
+        "message": "Character name"
+    }])
+    char_to_load = base_character_info["character_name"]
+    char: Character = pickler.unpickle_character(char_to_load)
+    char.upgrade_skill(SkillNames.COOL)
+    print(char.get_skill_rank(SkillNames.COOL))
+
+
+def now_what(current_action: str, action, character: Character=None):
     what_next = PyInquirer.prompt([{
         "type": "list", "name": "up_next",
         "message": "What would you like to do?",
@@ -60,7 +80,7 @@ def now_what(current_action: str, action):
     }])
     next_action = what_next["up_next"]
     if next_action == current_action:
-        action()
+        action() if not character else action(character)
     elif next_action == Actions.RETURN_HOME:
         ask_type()
     else:

@@ -19,6 +19,7 @@ class Actions:
     ROLL_DICE = "Roll some dice"
     ROLL_AGAIN = "Roll again"
     CREATE_CHARACTER = "Make a character"
+    LOAD_CHARACTER = "Load a character"
     EXIT = "Exit"
     RETURN_HOME = "Return home"
 

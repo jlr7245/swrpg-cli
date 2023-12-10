@@ -13,4 +13,8 @@ class Character:
         skill = self.skillset.get_skill_by_name(skill_name)
         skill.increase_rank()
 
+    def get_skill_rank(self, skill_name):
+        skill = self.skillset.get_skill_by_name(skill_name)
+        return skill.rank
+
 
