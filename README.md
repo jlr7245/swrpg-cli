@@ -4,6 +4,7 @@ Project for me, a person who wanted to build something complex in python.
 
 ### Running it
 
+- You should have Python3 and pip installed on your machine.
 - Start up a virtual environment: `python -m venv venv` and `source venv/bin/activate`
 - Install requirements: `pip install -r requirements.txt`
 - Run the program: `python interface.py`
