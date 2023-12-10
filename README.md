@@ -1,6 +1,6 @@
 # SWRPG CLI
 
-Project for me, a person who wanted to build something complex in python.
+Project for me, a person who wanted to build something moderately complex in python.
 
 ### Running it
 
