@@ -1,5 +1,4 @@
 import random
-from operator import attrgetter
 from data import dice_sides
 
 def dice_roller(sides: int) -> int:
