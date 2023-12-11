@@ -1,16 +1,16 @@
 import unittest
 from character_creator.skill import Skill, Skillset, SkillTypes
-from character_creator.constants import SkillNames, Characteristics
+from character_creator.constants import SkillNames, Abilities
 
 class TestSkill(unittest.TestCase):
 
     def test_skill_class__increase_rank(self):
-        cool = Skill(SkillNames.COOL, Characteristics.PRESENCE, SkillTypes.GENERAL)
+        cool = Skill(SkillNames.COOL, Abilities.PRESENCE, SkillTypes.GENERAL)
         cool.increase_rank()
         self.assertEqual(1, cool.rank)
 
     def test_skill_class__set_career_skill(self):
-        lore = Skill(SkillNames.LORE, Characteristics.INTELLECT, SkillTypes.KNOWLEDGE)
+        lore = Skill(SkillNames.LORE, Abilities.INTELLECT, SkillTypes.KNOWLEDGE)
         lore.set_career_skill()
         self.assertTrue(lore.is_career_skill)
 

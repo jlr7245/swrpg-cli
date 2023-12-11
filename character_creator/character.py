@@ -37,7 +37,7 @@ class Character:
     def list_ranked_skills(self):
         """Lists character's ranked skills"""
         ranked_skills = list(filter(lambda sk: sk.rank > 0, self.skillset.skills_list))
-        ranked_list = list(map(lambda sk: f"{sk.name.value} -- {sk.rank}", ranked_skills))
+        ranked_list = list(map(lambda sk: f"{sk.name} -- {sk.rank}", ranked_skills))
         return "\n".join(ranked_list)
     
     # equipment + credits
