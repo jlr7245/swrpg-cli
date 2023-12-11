@@ -6,8 +6,9 @@ from pyfiglet import Figlet
 from character_creator.character import Character
 from character_creator.constants import SkillNames
 from character_creator.utils import dice_roller, pickler
-from .interface_constants import TermFormat, Actions
+from .interface_constants import TermFormat, CLIActions
 from .interface_character_creation import create_character
+from .interface_update_character import update_character
 
 
 
@@ -18,16 +19,16 @@ def ask_type():
     init_answers = PyInquirer.prompt([
         {"type": "list", "name": "action",
          "message": "Welcome to the SWRPG command line tool! What would you like to do?",
-         "choices": [Actions.CREATE_CHARACTER, Actions.LOAD_CHARACTER, Actions.ROLL_DICE, Actions.EXIT]}
+         "choices": [CLIActions.CREATE_CHARACTER, CLIActions.LOAD_CHARACTER, CLIActions.ROLL_DICE, CLIActions.EXIT]}
     ])
     match init_answers["action"]:
-        case Actions.ROLL_DICE:
+        case CLIActions.ROLL_DICE:
             roll_dice()
-        case Actions.CREATE_CHARACTER:
+        case CLIActions.CREATE_CHARACTER:
             create_character_option()
-        case Actions.LOAD_CHARACTER:
+        case CLIActions.LOAD_CHARACTER:
             load_character()
-        case Actions.EXIT, _:
+        case CLIActions.EXIT, _:
             print("👋 Bye!")
 
 
@@ -49,12 +50,16 @@ def roll_dice():
     output = dice_roller.dice_roller_swrpg(init_answers["dice_input"])
     print(f"> You rolled: {TermFormat.PURPLE}{TermFormat.BOLD}{output}{TermFormat.ENDC}")
 
-    now_what(Actions.ROLL_AGAIN, roll_dice)
+    now_what(CLIActions.ROLL_AGAIN, roll_dice)
 
 
 def create_character_option():
     create_character()
-    now_what(Actions.CREATE_CHARACTER, create_character_option)
+    now_what(CLIActions.CREATE_CHARACTER, create_character_option)
+
+def update_character_option(character):
+    update_character(character)
+    now_what(CLIActions.UPDATE_CHARACTER, update_character_option, character)
 
 
 def load_character():
@@ -64,20 +69,21 @@ def load_character():
     }])
     char_to_load = base_character_info["character_name"]
     char: Character = pickler.unpickle_character(char_to_load)
-    char.upgrade_skill(SkillNames.COOL)
-    print(char.get_skill_rank(SkillNames.COOL))
+    print(f"> Loaded {TermFormat.UNDERLINE}{char.name}{TermFormat.ENDC} the {char.species.name}")
+    print(char.list_ranked_skills())
+    now_what(CLIActions.UPDATE_CHARACTER, update_character_option, char)
 
 
-def now_what(current_action: str, action: Actions, character: Character=None):
+def now_what(current_action: CLIActions, action, character: Character=None):
     what_next = PyInquirer.prompt([{
         "type": "list", "name": "up_next",
         "message": "What would you like to do?",
-        "choices": [current_action, Actions.RETURN_HOME, Actions.EXIT]
+        "choices": [current_action, CLIActions.RETURN_HOME, CLIActions.EXIT]
     }])
     next_action = what_next["up_next"]
     if next_action == current_action:
         action() if not character else action(character)
-    elif next_action == Actions.RETURN_HOME:
+    elif next_action == CLIActions.RETURN_HOME:
         ask_type()
     else:
         print("👋 Bye!")

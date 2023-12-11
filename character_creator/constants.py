@@ -1,4 +1,4 @@
-from ..utils.super_enum import SuperEnum
+from utils.super_enum import SuperEnum
 
 class Characteristics(SuperEnum):
     BRAWN = "Brawn"

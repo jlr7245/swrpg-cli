@@ -1,17 +1,13 @@
-from ..constants import Characteristics, SkillNames
+from ..constants import SkillNames
+from .species import Species, generate_stats_dict
 
-class Bothan:
+class Bothan(Species):
     def __init__(self):
-        self[Characteristics.BRAWN] = 1
-        self[Characteristics.AGILITY] = 2
-        self[Characteristics.INTELLECT] = 2
-        self[Characteristics.CUNNING] = 3
-        self[Characteristics.WILLPOWER] = 2
-        self[Characteristics.PRESENCE] = 2
-        self.wound_threshold_modifier = 10
-        self.strain_threshold_modifier = 11
-        self.starting_experience = 100
+        super().__init__("Bothan",
+                         stats=generate_stats_dict(1, 2, 2, 3, 2, 2),
+                         wound_threshold_modifier=10, strain_threshold_modifier=10,
+                         starting_xp=100)
 
     def starting_ranks(self, char):
-        char.upgrade_skill(SkillNames.STREETWISE)
-        # char.add_talent(TalentName.CONVINCING_DEMEANOR)
+        char.upgrade_skill(SkillNames.STREETWISE, is_free=True)
+        # char.add_talent(TalentName.CONVINCING_DEMEANOR, is_free=True)
