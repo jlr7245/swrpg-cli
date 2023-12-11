@@ -6,7 +6,6 @@ from character_creator.species import SpeciesName, species_lookup
 
 
 def create_character():
-    print(species_lookup)
     base_character_info = PyInquirer.prompt([{
         "type": "input", "name": "name",
         "message": "Character name"
