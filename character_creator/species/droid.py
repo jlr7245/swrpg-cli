@@ -1,6 +1,7 @@
 from .species import Species
 # from ..constants import TalentNames
 
+
 class Droid(Species):
     def __init__(self):
         super().__init__("Droid", starting_xp=175)
