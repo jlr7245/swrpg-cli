@@ -1,7 +1,7 @@
-prompt-toolkit==1.0.14
+prompt-toolkit==3.0.41
 pyfiglet==1.0.2
 Pygments==2.17.2
-PyInquirer==1.0.3
+PyInquirer @ git+https://github.com/jlr7245/PyInquirer@0603d7b928cf5599dec8632bdb334333825a0bbf
 regex==2023.10.3
 six==1.16.0
 wcwidth==0.2.12
