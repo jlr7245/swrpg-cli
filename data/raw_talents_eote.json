@@ -1,0 +1,2667 @@
+[
+    {
+        "name": "All-Terrain Driver",
+        "i": 1,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Operator",
+            "Driver"
+        ],
+        "description": "When piloting a vehicle using the Piloting (Planetary) skill, the character does not suffer the penalties for driving through difficult terrain."
+    },
+    {
+        "name": "Anatomy Lessons",
+        "i": 2,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Assassin",
+            "Doctor"
+        ],
+        "description": "After a successful attack with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Intellect to one hit of the attack."
+    },
+    {
+        "name": "Armor Master",
+        "i": 3,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer",
+            "Heavy"
+        ],
+        "description": "When wearing armor, the character increases their total soak value by one."
+    },
+    {
+        "name": "Armor Master (Improved)",
+        "i": 4,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer"
+        ],
+        "description": "When wearing armor with a soak value of two or higher, the character increases their defense by one."
+    },
+    {
+        "name": "Bacta Specialist",
+        "i": 5,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "Patients under the character's supervision heal one additional wound per rank of Bacta Specialist each time they recover a wound while recovering in a Bacta tank or under supervised medical conditions or long-term care."
+    },
+    {
+        "name": "Bad Cop",
+        "i": 6,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Marshal"
+        ],
+        "description": "The character may spend 2 advantage from a Deception or Coercion check to upgrade the ability of a single ally's subsequent Social Interaction skill check against the same target in the same encounter. Upgrade the ability a number of times equal to the character's ranks in Bad Cop. A single check may only benefit from one use of Bad Cop."
+    },
+    {
+        "name": "Bad Motivator",
+        "i": 7,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": "Once per game session, the character may take a Bad Motivator action to make a Hard (3d) Mechanics check. If successful, one device (subject to the GM's approval) spontaneously fails due to the character's involvement, or because it was about to fail anyway and the character noticed it (this is the character's decision)."
+    },
+    {
+        "name": "Balance",
+        "i": 8,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "When the character recovers from Strain at the end of each encounter, they may roll their Force rating in Force dice. They regain additional strain equal to the #f rolled."
+    },
+    {
+        "name": "Barrage",
+        "i": 9,
+        "activation": "Pass",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Heavy"
+        ],
+        "description": "Add one damage per rank of Barrage to one hit of successful Ranged (Heavy) or Gunnery attacks with non-starship/vehicle weapons at long or extreme range."
+    },
+    {
+        "name": "Biggest Fan",
+        "i": 10,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Performer"
+        ],
+        "description": "Once per session, the character may take a Biggest Fan action to make a Hard (3d) Charm check. If successful, one NPC of the character's choice in the current encounter turns out to be the character's self-proclaimed \"biggest fan.\" The exact effects of this vary depending on the NPC and the situation. They can include drastically decreasing the difficulty of Social Interaction skill checks the character makes targeting their biggest fan, the fan being willing to perform minor or even significant favors for the character, or the character even becoming a reoccurring ally in the narrative. At the GM's discretion, this talent may not be able to target certain NPCs whose adversarial nature is vital to the plot, or NPCs who would be unable to appreciate the character's work such as non-sentient creatures, labor droids, and Imperial Stormtroopers."
+    },
+    {
+        "name": "Black Market Contacts",
+        "i": 11,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Scoundrel",
+            "Thief",
+            "Trader",
+            "Enforcer"
+        ],
+        "description": "When looking to purchase illegal, exotic, or black market goods, the character may decrease an item's rarity by one level per rank in Black Market Contacts. For each level an item's rarity is decreased, its cost increases by 50% of its base cost."
+    },
+    {
+        "name": "Blooded",
+        "i": 12,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Survivalist"
+        ],
+        "description": "Add 1b per rank of Blooded to all checks to resist or recover from the effects of poisons, venoms, and other toxins. Reduce the duration of any related ongoing effects or damage from toxins, venoms, or poisons by one round per rank of Blooded to a minimum of one."
+    },
+    {
+        "name": "Body Guard",
+        "i": 13,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard"
+        ],
+        "description": "Once per round on the character's turn, the character may perform a Body Guard maneuver to protect one ally they are engaged with. They then suffer a number of strain no greater than their ranks in Body Guard. Until the start of the character's next turn, upgrade the difficulty of all combat checks targeting the protected ally a number of times equal to the strain suffered by the character."
+    },
+    {
+        "name": "Bought Info",
+        "i": 14,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Skip Tracer",
+            "Entrepreneur"
+        ],
+        "description": "When required to make a Knowledge skill check, the character can instead make a Bought Info action. They spend a number of credits equal to 50 times the difficulty of the check and count as succeeding on the check with one uncanceled failure. At the GM's discretion, the character may not be able to use this ability if the information sought is particularly esoteric or hard to find, of if the character is in a situation where they could not purchase information (such as marooned on a planet with no access to the HoloNet)."
+    },
+    {
+        "name": "Brace",
+        "i": 15,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Gadgeteer",
+            "Outlaw Tech",
+            "Scholar",
+            "Heavy"
+        ],
+        "description": "As a maneuver, the character may Brace themself. This allows a character to remove 1s per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult."
+    },
+    {
+        "name": "Brilliant Evasion",
+        "i": 16,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "The character may make the Brilliant Evasion action when piloting a vehicle or starship. The character selects one opponent and makes an Opposed Piloting (Planetary or Space) check. If they succeed, the opponent's vehicle or starship cannot make any attacks against the character's vehicle for a number of rounds equal to the character's Agility. Brilliant Evasion can only be performed once per encounter."
+    },
+    {
+        "name": "Bring it Down",
+        "i": 17,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Big-Game Hunter"
+        ],
+        "description": "The character may spend 1 Destiny Point to add damage to a single hit equal to their target's Brawn value.This ability may only be activated once per attack."
+    },
+    {
+        "name": "Burly",
+        "i": 18,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Heavy"
+        ],
+        "description": "The character reduces any wielded or carried weapon's Cumbersome quality and Encumbrance rating by a number equal to ranks in Burly to a minimum of 1."
+    },
+    {
+        "name": "Bypass Security",
+        "i": 19,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer",
+            "Thief",
+            "Skip Tracer"
+        ],
+        "description": "Remove #s equal to the character's ranks in Bypass Security from Skulduggery or Computers skill checks made to disable a security device or open a locked door."
+    },
+    {
+        "name": "Call 'Em",
+        "i": 20,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gunslinger"
+        ],
+        "description": "This character does not add any #s to their combat checks due the use of the Aim maneuver (to target a specific item carried by the target, or a specific part of the target)."
+    },
+    {
+        "name": "Clever Solution",
+        "i": 21,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "Once per game session, the character can choose to make one skill check using Cunning rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their wiliness helps overcome this challenge."
+    },
+    {
+        "name": "Codebreaker",
+        "i": 22,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scholar",
+            "Slicer"
+        ],
+        "description": "The character removes #s from any attempt to break codes or decrypt communications equal to their ranks in Codebreaker. In addition, the character decreases the difficulty of Computers or Intellect checks made to break codes or decrypt communications by one. This does not increase with additional ranks of Codebreaker."
+    },
+    {
+        "name": "Command",
+        "i": 23,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Mercenary Soldier"
+        ],
+        "description": "Gain 1b when making Leadership checks (or other checks to inspire, lead, or rally an audience) per rank of Command. Inspired targets also add 1b per rank to any subsequent Discipline checks they make over the next twenty-four hours. This does not increase with additional ranks of Command."
+    },
+    {
+        "name": "Confidence",
+        "i": 24,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scholar",
+            "Mercenary Soldier",
+            "Big-Game Hunter",
+            "Gunslinger"
+        ],
+        "description": "The character may decrease the difficulty of any Discipline check to avoid the effects of fear by one level per rank of Confidence. If they decrease the difficulty to zero, they do not have to make a Discipline check."
+    },
+    {
+        "name": "Congenial",
+        "i": 25,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Performer",
+            "Charmer"
+        ],
+        "description": "When attempting a Charm or Negotiation check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. Also, when the character is the target of a Charm or Negotiation check, the character may suffer a number of strain to upgrade the difficulty of the check a number of times equal to the strain suffered. Neither number cannot exceed the character's ranks in Congenial."
+    },
+    {
+        "name": "Contraption",
+        "i": 26,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": "Once per game session, the character can take a Contraption action. With a successful Hard (3d) Mechanics check, the character can fashion a device to solve a current problem using the tools and parts on hand. This device must be approved by the GM and functions for the duration of the current encounter only. Those tools are destroyed in the process. Triumph may be spent to allow the tools to be recovered to be reused later."
+    },
+    {
+        "name": "Convincing Demeanor",
+        "i": 27,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force Sensitive Exile",
+            "Scoundrel",
+            "Trader",
+            "Performer",
+            "Gambler"
+        ],
+        "description": "Remove 1s per rank of Convincing Demeanor from any Deception or Skulduggery check."
+    },
+    {
+        "name": "Coordination Dodge",
+        "i": 28,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist",
+            "Performer",
+            "Gunslinger"
+        ],
+        "description": "When targeted by a combat check, the character may spend one Destiny Point to add failure equal to their ranks in Coordination to the check."
+    },
+    {
+        "name": "Crippling Blow",
+        "i": 29,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer"
+        ],
+        "description": "The character may voluntarily increase the difficulty of a combat check by one to deal a crippling blow. If they succeed and deal damage to the target's wound threshold, the target suffers one strain whenever they move for the remainder of the encounter."
+    },
+    {
+        "name": "Custom Loadout",
+        "i": 30,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Modder"
+        ],
+        "description": "The character increases the hard points of their Signature Vehicle by two."
+    },
+    {
+        "name": "Cyberneticist",
+        "i": 31,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "The character removes 1s per rank of Cyberneticist from their checks to build, repair, and install cybernetic implants. In addition, cybernetics and any materials used to craft cybernetics cost the character 50% less (this does not decrease with additional ranks of Cyberneticist)."
+    },
+    {
+        "name": "Dead to Rights",
+        "i": 32,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "The character may spend one Destiny Point to add additional damage equal to half their Agility rating (rounded up) to one hit of a successful attack made by ship or vehicle-mounted weaponry."
+    },
+    {
+        "name": "Dead to Rights (Improved)",
+        "i": 33,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "The character may spend one Destiny Point to add additional damage equal to their Agility rating (rounded up) to one hit of a successful attack made by ship or vehicle-mounted weaponry. This replaces the normal ability for Dead to Rights."
+    },
+    {
+        "name": "Deadly Accuracy",
+        "i": 34,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Gadgeteer",
+            "Mercenary Soldier",
+            "Gunslinger"
+        ],
+        "description": "Each time the character gains a rank of Deadly Accuracy, they must choose one combat skill. The character may add their basic training ranks in that combat skill as additional damage to one hit of a successful attack made with that skill with non-starship/vehicle weapons. They cannot choose the same combat skill twice."
+    },
+    {
+        "name": "Debilitating Shot",
+        "i": 35,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Operator"
+        ],
+        "description": "Upon making a successful attack with a starship or vehicle weapon, may spend advantage to reduce the maximum speed of the target by 1 (to a minimum of 1) until the end of the next round. If the starship or vehicle was traveling its maximum speed, it has its current speed reduced to the new maximum."
+    },
+    {
+        "name": "Deceptive Taunt",
+        "i": 36,
+        "activation": "Active",
+        "ranked": false,
+        "trees": [
+            "Performer"
+        ],
+        "description": "Once per session, the character may make a Deceptive Taunt action. The character makes an opposed Deception check targeting one NPC within medium range. If they succeed, the NPC must attack the character during its next turn. If the NPC cannot do so, it must spend all subsequent turns maneuvering into position until it can make a melee or ranged attack against the character. Once it has made a melee or ranged attack against the character, the NPC is no longer affected by Deceptive Taunt. If the character is incapacitated or leaves the encounter, the NPC is no longer affected by Deceptive Taunt. If used outside of combat, at the GM's discretion the NPC can choose to perform a non-lethal attack if the situation warrants it. If the encounter takes place at a party, for example, the NPC may choose to punch the character rather than using a knife or blaster."
+    },
+    {
+        "name": "Dedication",
+        "i": 37,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "(all)"
+        ],
+        "description": "Each rank permanently increases a single characteristic of the player's choice by one point. This cannot bring a characteristic above six."
+    },
+    {
+        "name": "Defensive Driving",
+        "i": 38,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Fringer",
+            "Pilot"
+        ],
+        "description": "Any vehicle the character pilots has its defense rating on all zones increased by one per rank of Defensive Driving."
+    },
+    {
+        "name": "Defensive Slicing",
+        "i": 39,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "When attempting to defend a computer system against intrusion (or when an opponent attempts to slice a computer owned or programmed by the character), the character adds #s equal to their rank of Defensive Slicing to their opponent's checks."
+    },
+    {
+        "name": "Defensive Slicing (Improved)",
+        "i": 40,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "When attempting to defend a computer system against intrusion, the character upgrades the difficulty of an opponent's dice pool a number of times equal to their rank of Defensive Slicing. This replaces the usual benefits from Defensive Slicing."
+    },
+    {
+        "name": "Defensive Stance",
+        "i": 41,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Gadgeteer",
+            "Marauder",
+            "Outlaw Tech",
+            "Enforcer"
+        ],
+        "description": "One per round on the character's turn, the character may perform a Defensive Stance maneuver to assume a defensive stance against incoming melee attacks. They then suffer a number of strain no greater than their ranks in Defensive Stance. Until the start of the character's next turn, upgrade the difficulty of all melee combat checks targeting the character a number of times equal to the strain suffered by the character in this way."
+    },
+    {
+        "name": "Deft Maker",
+        "i": 42,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Droid Tech"
+        ],
+        "description": "The character removes 1s per rank of Deft Maker from their checks to repair, modify, construct, and program droids. In addition, materials to craft droids cost the character 50% less. This does not decrease with additional ranks of Deft Maker."
+    },
+    {
+        "name": "Disarming Smile",
+        "i": 43,
+        "activation": "Active (Action)",
+        "ranked": true,
+        "trees": [
+            "Charmer"
+        ],
+        "description": "The character can take the Disarming Smile action to make an opposed Charm check against one target within short range. If they succeed, decrease the target's defense (melee and ranged) by a number equal to the character's ranks in Disarming Smile (to a minimum of 0) until the end of the encounter."
+    },
+    {
+        "name": "Disorient",
+        "i": 44,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Gadgeteer",
+            "Marauder",
+            "Outlaw Tech"
+        ],
+        "description": "After hitting with a combat check, the character may spend Advantage to Disorient their foe. Disoriented targets add 1s to all skill checks. The Target is Disoriented for a number of rounds equal to the attacker's ranks in Disorient."
+    },
+    {
+        "name": "Distracting Behavior",
+        "i": 45,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Performer"
+        ],
+        "description": "The character may make a Distracting Behavior maneuver and suffer a number of strain no greater than their ranks in Cunning. If they do so, an equal number of adversaries or NPCs they are engaged with suffer Threat on checks they make until the beginning of the character's next turn. The range of this maneuver increases by one band per rank of Distracting Behavior. The character selects who is affected by Distracting Behavior and can choose to have this talent not affect NPC allies. It may be that they explain their tactics to the NPCs beforehand, or that they know the character well enough to be used to their antics."
+    },
+    {
+        "name": "Distracting Behavior (Improved)",
+        "i": 46,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Performer"
+        ],
+        "description": "When affected by Distracting Behavior, NPCs suffer 2 Threat when making checks targeting the character's allies, instead of Threat."
+    },
+    {
+        "name": "Dodge",
+        "i": 47,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Doctor",
+            "Fringer",
+            "Politico",
+            "Thief",
+            "Performer"
+        ],
+        "description": "When targeted by a combat check (ranged or melee), the character may choose to immediately perform a Dodge incidental to suffer a number of strain, then upgrade the difficulty of the combat check by that number. The number of strain suffered cannot exceed their ranks in Dodge."
+    },
+    {
+        "name": "Don't Shoot!",
+        "i": 48,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Charmer"
+        ],
+        "description": "Once per session, the character can take the Don't Shoot! action to make a Hard (3d) Charm check. If they succeed, they cannot be the target of a combat check until the end of the encounter or until they make a combat check. This player must explain how they talk their way out of being associated with their party's combatants, and the GM has final say on whether the player's ruse succeeds."
+    },
+    {
+        "name": "Double or Nothing",
+        "i": 49,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "Once per check, the character may suffer two strain to increase the difficulty of the check by one. Then, after canceling opposing symbols, they double the number of remaining Advantage."
+    },
+    {
+        "name": "Double or Nothing (Improved)",
+        "i": 50,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "When performing the Double or Nothing incidental, after canceling opposing symbols, the character also doubles the number of remaining Success."
+    },
+    {
+        "name": "Double or Nothing (Supreme)",
+        "i": 51,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "When performing the Double or Nothing incidental, the character also doubles the number of Triumph and Despair."
+    },
+    {
+        "name": "Durable",
+        "i": 52,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Fringer",
+            "Marshal",
+            "Archaeologist",
+            "Enforcer",
+            "Heavy",
+            "Cyber Tech"
+        ],
+        "description": "The character may reduce a Critical Injury result they suffer by 10 per rank of Durable, to a minimum of one."
+    },
+    {
+        "name": "Enduring",
+        "i": 53,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Marauder",
+            "Mechanic",
+            "Survivalist",
+            "Archaeologist",
+            "Demolitionist"
+        ],
+        "description": "Character gains +1 soak value per rank of Enduring."
+    },
+    {
+        "name": "Energy Transfer",
+        "i": 54,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "The character may suffer 1 strain to perform the Energy Transfer maneuver; when they do, they can power up an appropriate unpowered device (such as a datapad, a droid, or a door) until the end of the encounter. Alternatively, they can restore ammunition to an energy-based weapon, allowing a character to ignore an out of ammo Despair result. The character must have at least one cybernetic installed to perform this maneuver."
+    },
+    {
+        "name": "Engineered Redundancies",
+        "i": 55,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "The character benefits from Emergency Repair Patches as if they were a droid. The character still benefits from Stimpacks as usual, but can only benefit from a total of 5 Stimpacks and/or Emergency Repair Patches per day. Additionally, the character can be healed with the Mechanics skill in the same manner as a droid."
+    },
+    {
+        "name": "Expert Tracker",
+        "i": 56,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Survivalist",
+            "Skip Tracer",
+            "Big-Game Hunter"
+        ],
+        "description": "Remove 1s per rank of Expert Tracker from checks to find or follow tracks. Survival checks made to track targets take 50% less time than normal. This does not decrease with additional ranks of Expert Tracker."
+    },
+    {
+        "name": "Eye For Detail",
+        "i": 57,
+        "activation": "Active (Incidental]",
+        "ranked": true,
+        "trees": [
+            "Cyber Tech",
+            "Droid Tech"
+        ],
+        "description": "After rolling the dice pool for a Mechanics or Computers check but before interpreting the results, the character may voluntarily suffer a number of strain no greater than their ranks in Eye for Detail. If they do, they may convert that many Success into Advantage. The character must still have at least 1 Success in the results at the end to succeed on the check."
+    },
+    {
+        "name": "Familiar Suns",
+        "i": 58,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Scout"
+        ],
+        "description": "Once per game session, the character may spend a maneuver to make a Hard (3d) Knowledge (Outer Rim) or Knowledge (Core Worlds) check. If successful, the character is familiar with the type of planetary environment they find themself in. They know whether the planet is likely to be inhabited and, if so, where habitation could be found. They also know about unusual environmental effects, hostile predators, or sources of potential profit."
+    },
+    {
+        "name": "Fancy Paint Job",
+        "i": 59,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Modder"
+        ],
+        "description": "The character can upgrade the ability of all of their Charm, Deception. and Negotiation checks made in the presence of their Signature Vehicle once."
+    },
+    {
+        "name": "Fearsome",
+        "i": 60,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Enforcer"
+        ],
+        "description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome. At the GM's discretion, some adversaries may be immune to this talent based on the type of adversary or the ongoing circumstances."
+    },
+    {
+        "name": "Feral Strength",
+        "i": 61,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Marauder"
+        ],
+        "description": "The character deals +1 damage to one hit on all successful Brawl and Melee checks per rank of Feral Strength."
+    },
+    {
+        "name": "Field Commander",
+        "i": 62,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mercenary Soldier"
+        ],
+        "description": "The character may take a Field Commander action. By successfully passing an Average (2d) Leadership check, a number of allies equal to their Presence may immediately suffer one strain to perform one maneuver. This does not count against the number of maneuvers they may perform in their turn. If there are any questions as to the order in which allies act, the character using Field Commander is the final arbitrator."
+    },
+    {
+        "name": "Field Commander (Improved)",
+        "i": 63,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Mercenary Soldier"
+        ],
+        "description": "When taking a Field Commander action, the character may affect allies equal to twice their Presence. In addition, they may spend Triumph generated on their Leadership checks to allow one ally to suffer one strain to perform an action, rather than a maneuver."
+    },
+    {
+        "name": "Fine Tuning",
+        "i": 64,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": "Whenever the character reduces the amount of strain a starship or vehicle suffers, they reduce one additional strain per rank of Fine Tuning."
+    },
+    {
+        "name": "Forager",
+        "i": 65,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile",
+            "Scout",
+            "Survivalist,Big-Game Hunter"
+        ],
+        "description": "Remove up to 2s from skill checks to find food, water, or shelter. Survival checks to forage take half the time."
+    },
+    {
+        "name": "Force Rating",
+        "i": 66,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "Each rank permanently increases Force rating by one."
+    },
+    {
+        "name": "Fortune Favors the Bold",
+        "i": 67,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "Once per game session, as an out of turn incidental, the character may suffer two strain to flip one Dark Destiny Point to a Light Destiny Point (this cannot be used to interrupt the spending of a Destiny Point)."
+    },
+    {
+        "name": "Frenzied Attack",
+        "i": 68,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Marauder"
+        ],
+        "description": "When making a Melee or Brawl combat check, the character may suffer a number of strain, then upgrade the ability of their combat check by that number. The number cannot exceed their ranks in Frenzied Attack."
+    },
+    {
+        "name": "Full Stop",
+        "i": 69,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": "When piloting a ship or vehicle, the character may take the full-stop maneuver to immediately reduce the speed of the vehicle to zero. The ship or vehicle then suffers one point of system strain for every point of speed it had before stopping"
+    },
+    {
+        "name": "Full Throttle",
+        "i": 70,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Pilot",
+            "Operator"
+        ],
+        "description": "The character may push a ship or vehicle past its limits of speed. They may perform the Full Throttle action, attempting a Hard (3d) Piloting check. With success, the ship's top speed increases by one for a number of rounds equal to Cunning.The ship still cannot perform actions or maneuvers it could not perform normally (i.e. actions that have a minimum speed requirement)."
+    },
+    {
+        "name": "Full Throttle (Improved)",
+        "i": 71,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "The character may voluntarily suffer one strain to attempt Full Throttle as a maneuver. In addition, the difficulty of Full Throttle is reduced to Average (2d)"
+    },
+    {
+        "name": "Full Throttle (Supreme)",
+        "i": 72,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "When the character successfully performs Full Throttle, the ship's top speed increases by two for a number of rounds equal to their Cunning, instead of one."
+    },
+    {
+        "name": "Galaxy Mapper",
+        "i": 73,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Fringer",
+            "Pilot",
+            "Operator"
+        ],
+        "description": "Remove 1s per rank of Galaxy Mapper from all Astrogation checks. In addition, Astrogation checks take 50% less time. This does not increase with multiple ranks of Galaxy Mapper."
+    },
+    {
+        "name": "Gearhead",
+        "i": 74,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Mechanic",
+            "Modder"
+        ],
+        "description": "Remove 1s per rank of Gearhead from all Mechanics checks. - In addition, the credit cost to add mods to attachments decreases by 50%. This does not increase with multiple ranks of Gearhead."
+    },
+    {
+        "name": "Good Cop",
+        "i": 75,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Skip Tracer",
+            "Marshal"
+        ],
+        "description": "The character may spend 2 Advantage from a Charm or Negotiation check to upgrade the ability of a single ally's subsequent Social Interaction skill check against the same target in the same encounter. Upgrade the ability a number of times equal to the character's ranks in Good Cop. A single check may only benefit from one use of Good Cop"
+    },
+    {
+        "name": "Guns Blazing",
+        "i": 76,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gunslinger"
+        ],
+        "description": "When making a combined combat check with two Ranged (Light) weapons, the character may suffer two strain in order to refrain from increasing the difficulty of the check for attacking with two weapons."
+    },
+    {
+        "name": "Grapple",
+        "i": 77,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "Once per round, the character may perform the Grapple maneuver. Until the beginning of their next turn, enemies must spend two maneuvers instead of one maneuver to move from engaged range to short range of the character."
+    },
+    {
+        "name": "Greased Palms",
+        "i": 78,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Entrepreneur"
+        ],
+        "description": "Before making a Social Interaction check, the character may perform a Greased Palms maneuver and spend up to 50 credits per rank of Greased Palms. For every 50 credits spent, the character upgrades the ability of the skill check once. How the money accomplishes this can be up to the player and GM, but could take the form of bribes, buying gifts, or even purchasing information that gives the character an advantage in the interaction."
+    },
+    {
+        "name": "Grit",
+        "i": 79,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Bodyguard",
+            "Doctor",
+            "Fringer",
+            "Mechanic",
+            "Outlaw Tech",
+            "Pilot",
+            "Politico",
+            "Scout",
+            "Slicer",
+            "Mercenary Soldier",
+            "Scholar",
+            "Survivalist",
+            "Thief",
+            "Trader",
+            "Martial Artist",
+            "Operator",
+            "Entrepreneur",
+            "Marshal",
+            "Performer",
+            "Archaeologist",
+            "Big-Game Hunter",
+            "Demolitionist",
+            "Heavy",
+            "Charmer",
+            "Gambler",
+            "Gunslinger",
+            "Droid Tech"
+        ],
+        "description": "Each rank of Grit increases a character's strain threshold by one."
+    },
+    {
+        "name": "Hard-Boiled",
+        "i": 80,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Skip Tracer"
+        ],
+        "description": "When making a check to recover strain at the end of an encounter, the character may spend 1 Advantage to recover 1 wound. Advantage spent this way cannot exceed the character's ranks in Hard-Boiled."
+    },
+    {
+        "name": "Hard Headed",
+        "i": 81,
+        "activation": "Active (Action)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Mechanic",
+            "Marshal",
+            "Archaeologist"
+        ],
+        "description": "The character may perform the Hard Headed action. On any turn in which the character is Staggered or Disoriented, they may perform the Hard Headed action (this action may be specifically performed even though they are normally barred from performing actions when staggered). They make a Daunting (4d) Discipline check. If they succeed, they are no longer staggered or disoriented. The difficulty of this check decreases by one per additional rank of Hard Headed, to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Hard Headed (Improved)",
+        "i": 82,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Bodyguard",
+            "Mechanic",
+            "Marshal"
+        ],
+        "description": "The character may use their Hard Headed action to recover from being incapacitated due to exceeding their strain threshold. On their next turn after being incapacitated, they may make a Formidable (5d) Discipline check as their Hard Headed action (this action can specifically be performed even though they are normally barred from performing actions). If they succeed, they decrease their strain to one below their strain threshold. The difficulty of this check decreases by one per rank of Hard Headed, to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Heavy Hitter",
+        "i": 83,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Heavy"
+        ],
+        "description": "Once per session, the character may spend Triumph on a successful Ranged (Heavy) or Gunnery check to add the Breach 1 quality to the attack, or increase an existing Breach rating by 1."
+    },
+    {
+        "name": "Heightened Awareness",
+        "i": 84,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Scout",
+            "Big-Game Hunter"
+        ],
+        "description": "Allies within close range of the character add 1b to their Perception and Vigilance checks. Allies engaged with them add 2b instead."
+    },
+    {
+        "name": "Heroic Fortitude",
+        "i": 85,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Marauder",
+            "Survivalist",
+            "Heavy"
+        ],
+        "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Brawn or Agility related checks until the end of the encounter. They still suffer from the injury itself."
+    },
+    {
+        "name": "Heroic Resilience",
+        "i": 86,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Heavy"
+        ],
+        "description": "Immediately after being hit by a successful combat check but before damage is calculated, the character may spend one Destiny Point to increase their soak by a number equal to their ranks in Resilience."
+    },
+    {
+        "name": "Hidden Storage",
+        "i": 87,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scoundrel",
+            "Thief",
+            "Droid Tech",
+            "Modder"
+        ],
+        "description": "Any large equipment, vehicle, or droid that the character owns has one or more hidden compartments for smuggling appropriately sized gear. The number of compartments is up to the player, but cannot be enough to hold a total encumbrance value of items more than the character's ranks in Hidden Storage. The size of the compartments are proportional to the size of the vehicle or droid in question. Most humanoid droids can only hold items equivalent in size to a one-handed weapon, whereas a silhouette 4 starship could conceal humanoids within its compartments. Any checks to detect these compartments have a Formidable (5d) difficulty."
+    },
+    {
+        "name": "Hindering Shot",
+        "i": 88,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Operator"
+        ],
+        "description": "The character may voluntarily increase the difficulty of a Gunnery combat check once to inflict a hindering shot on a vehicle. If they succeed and deal damage to the target vehicle's hull trauma threshold, the vehicle suffers system strain equal to its current speed whenever it moves until the end of the encounter."
+    },
+    {
+        "name": "Hold Together",
+        "i": 89,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": "The character may spend one Destiny Point to make a Hold Together incidental immediately after a vehicle or starship they have repaired this encounter takes damage. The character explains why the apparently serious damage was in fact superficial, and the damage from the attack becomes system strain instead."
+    },
+    {
+        "name": "Hunter",
+        "i": 90,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Survivalist"
+        ],
+        "description": "The character adds 1b per rank of Hunter to all skill checks when interacting with wild beasts and animals, including combat checks. Add +10 per rank to all Critical Injury rolls against animals per rank of Hunter."
+    },
+    {
+        "name": "Hunter's Quarry",
+        "i": 91,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Big-Game Hunter"
+        ],
+        "description": "The character may take the Hunter's Quarry action against an opponent within long range, making a Hard (3d) Survival check. If the check succeeds, upgrade the ability of all attacks made against the target by one until the end of the character's next turn."
+    },
+    {
+        "name": "Hunter's Quarry (Improved)",
+        "i": 92,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Big-Game Hunter"
+        ],
+        "description": "The character can choose to suffer 2 strain to perform the Hunter's Quarry action as a maneuver instead."
+    },
+    {
+        "name": "Improvised Detonation",
+        "i": 93,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "Once per session, the character may make a Hard (3d) Mechanics check to perform the Improvised Detonation action and build an explosive device out of available materials. The device can be detonated via any logical means (timed delay, pressure-activated, or even a fuse). When the device explodes, it deals damage equal to the character's ranks in Intellect, plus ranks in Mechanics, plus on Success the initial check, and possesses the Blast quality at an equal value. The character can spend Triumph to increase the damage by an additional 2. A Despair causes the device to detonate immediately in the owner's face. If the check would have been otherwise successful, the premature detonation does damage based on the successful check (and has an equivalent Blast quality). If the check would have failed, the premature detonation only does damage equal to ranks in Mechanics, plus ranks in Intellect."
+    },
+    {
+        "name": "Improvised Detonation (Improved)",
+        "i": 94,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "Reduce the difficulty of Improvised Detonation's check to Average (2d) and increase the damage dealt by the explosive to ranks in Intellect, plus twice the character's ranks in Mechanics, plus Success on the initial check (this includes the damage dealt on a premature detonation triggered by Despair)."
+    },
+    {
+        "name": "Indistinguishable",
+        "i": 95,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Thief"
+        ],
+        "description": "The character's appearance is so common that people have a hard time identifying distinguishing traits. Opposing characters upgrade the difficulty of any checks made to identify them once per rank of Indistinguishable."
+    },
+    {
+        "name": "Informant",
+        "i": 96,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Skip Tracer"
+        ],
+        "description": "Once per game session, the character may reveal a contact who possesses information on a particular subject of their choice. When the character does this, they must explain how they know this contact and how the contact can shed light on the matter in question. The contact should be available to the PCs, but the GM decides what the contact's expertise might cost."
+    },
+    {
+        "name": "Insight",
+        "i": 97,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "Perception and Discipline become career skills if they are not already."
+    },
+    {
+        "name": "Inspiring Rhetoric",
+        "i": 98,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Politico",
+            "Charmer"
+        ],
+        "description": "The character may take the Inspiring Rhetoric action; making an Average (2d) Leadership check. For each Success, one ally within close range recovers one strain. For each Advantage, one ally benefiting from Inspiring Rhetoric recovers one additional strain."
+    },
+    {
+        "name": "Inspiring Rhetoric (Improved)",
+        "i": 99,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Politico",
+            "Charmer"
+        ],
+        "description": "Each ally affected by Inspiring Rhetoric gains #b on all skill checks for a number of rounds equal to the character's ranks in Leadership; this does not stack with itself."
+    },
+    {
+        "name": "Inspiring Rhetoric (Supreme)",
+        "i": 100,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Politico"
+        ],
+        "description": "The character may voluntarily suffer 1 strain to perform Inspiring Rhetoric as a maneuver instead of an action."
+    },
+    {
+        "name": "Intense Focus",
+        "i": 101,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile",
+            "Scholar",
+            "Entrepreneur"
+        ],
+        "description": "Before making a skill check, the character may perform the Intense Focus maneuver. The character suffers one strain to upgrade the ability of the skill check once."
+    },
+    {
+        "name": "Intense Presence",
+        "i": 102,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Politico",
+            "Performer",
+            "Charmer"
+        ],
+        "description": "The character may spend one Destiny Point to recover strain equal to their Presence rating."
+    },
+    {
+        "name": "Intimidating",
+        "i": 103,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Gadgeteer",
+            "Enforcer"
+        ],
+        "description": "When attempting a Coercion check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. Also, ahen the character is the target of a Coercion check, the character may suffer a number of strain to upgrade the difficulty of the check a number of times equal to the strain suffered. Neither number may exceed their ranks in Intimidating."
+    },
+    {
+        "name": "Inventor",
+        "i": 104,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Outlaw Tech"
+        ],
+        "description": "When constructing new items or modifying existing attachments, the character may choose to add or remove 1s from the check per rank of Inventor."
+    },
+    {
+        "name": "Iron Body",
+        "i": 105,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "The character removes 1s per rank of Iron Body from their Coordination and Resilience checks. The critical rating of the character's unarmed attacks is reduced by 1 per rank of Iron Body, to a minimum of 1."
+    },
+    {
+        "name": "Jump Up",
+        "i": 106,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Assassin",
+            "Fringer",
+            "Thief",
+            "Performer"
+        ],
+        "description": "Once per round on the character's turn, the character may stand up from prone or a seated position as an Incidental."
+    },
+    {
+        "name": "Jury Rigged",
+        "i": 107,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gadgeteer",
+            "Outlaw Tech",
+            "Modder"
+        ],
+        "description": "The character chooses one personal weapon or piece of armor per rank of Jury Rigged. They may increase the damage of the weapon by one; decrease the Advantage cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, they can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as the character is using the item. If the item is ever lost or destroyed, the character may apply Jury Rigged to a new personal weapon or piece or armor."
+    },
+    {
+        "name": "Just Kidding!",
+        "i": 108,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Charmer"
+        ],
+        "description": "Once per round as an incidental, when the character or any of their allies in short range generates Despair on a social skill check, the character may spend one Destiny Point to convert a single Despair generated on the check to Failure. When they do this, they must explain what they say or do to smooth things over after the verbal misstep."
+    },
+    {
+        "name": "Kill with Kindness",
+        "i": 109,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Politico",
+            "Performer",
+            "Charmer"
+        ],
+        "description": "Remove 1s per rank of Kill with Kindness from all Charm and Leadership checks the character attempts."
+    },
+    {
+        "name": "Knockdown",
+        "i": 110,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Fringer",
+            "Marauder",
+            "Archaeologist"
+        ],
+        "description": "After hitting with a melee attack, the character may knock the target prone by spending a Triumph. If the target is larger than the acting character, it requires one additional for each silhouette larger."
+    },
+    {
+        "name": "Know Somebody",
+        "i": 111,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Trader",
+            "Entrepreneur",
+            "Modder"
+        ],
+        "description": "Once per game session, when attempting to purchase a legally available item, the character may reduce its rarity by one step per rank of Know Somebody."
+    },
+    {
+        "name": "Knowledge Specialization",
+        "i": 112,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scholar",
+            "Archaeologist"
+        ],
+        "description": "When the character first acquires this talent, they may choose one Knowledge skill. When making checks with that skill, they may spend Triumph to gain additional successes equal to their ranks in Knowledge Specialization."
+    },
+    {
+        "name": "Known Schematic",
+        "i": 113,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Outlaw Tech"
+        ],
+        "description": "Once per game session, the character may spend a maneuver to make a Hard (3d) Knowledge (Education) check. Success means the character is familiar with a building or capital ship's design. They now knows the location of critical components or facilities within the ship or vehicle, as well as their own location. They can also plan unconventional routes around obstacles. Additional Success, Advantage, or Triumph results can reveal other useful information at the GM's discretion."
+    },
+    {
+        "name": "Larger Project",
+        "i": 114,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Modder"
+        ],
+        "description": "The character can choose a Signature Vehicle with a silhouette value 1 higher than normal per rank of Larger Project."
+    },
+    {
+        "name": "Let's Ride",
+        "i": 115,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot",
+            "Scout",
+            "Operator"
+        ],
+        "description": "Once per round on the character's turn, the character may mount or dismount from a vehicle or beast, or slide into the cockpit or weapon station aboard a star- ship, as an incidental instead of a maneuver."
+    },
+    {
+        "name": "Lethal Blows",
+        "i": 116,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Marauder",
+            "Mercenary Soldier",
+            "Gunslinger"
+        ],
+        "description": "The character adds +10 per rank of Lethal Blows to any Critical Injury rolls inflicted on opponents."
+    },
+    {
+        "name": "Loom",
+        "i": 117,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Enforcer"
+        ],
+        "description": "When an ally engaged with the character makes a successful Charm, Deception, or Negotiation check, the character adds 1 Advantage per rank in Coercion to the ally's check."
+    },
+    {
+        "name": "Machine Mender",
+        "i": 118,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Droid Tech"
+        ],
+        "description": "When this character makes a Mechanics check to help a character heal wounds, the target heals one additional wound per rank of Machine Mender. Typically, only droids can be healed with Mechanics checks."
+    },
+    {
+        "name": "Master Doctor",
+        "i": 119,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "Once per round, the character may suffer two strain to decrease the difficulty of their next Medicine check by one to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Master Driver",
+        "i": 120,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": "Once per round when piloting a vehicle using the Piloting (Planetary) skill, the character may voluntarily suffer 2 strain to perform any action as a maneuver instead."
+    },
+    {
+        "name": "Master Grenadier",
+        "i": 121,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "The character decreases the Advantage cost to activate the Blast quality on any weapon they use by 1 to a minimum of 1. This includes the cost to activate the Blast quality if the weapon misses."
+    },
+    {
+        "name": "Master Merchant",
+        "i": 122,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Trader",
+            "Entrepreneur"
+        ],
+        "description": "Before making a check when buying or selling items, or undertaking or paying off Obligation, the character may choose to suffer two strain. If the check succeeds, they sell the item for 25% more than base cost, buy it for 25% less, pay off an additional one Obligation point, or undertake one less Obligation point."
+    },
+    {
+        "name": "Master of Shadows",
+        "i": 123,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Assassin",
+            "Thief"
+        ],
+        "description": "Once per round, the character may voluntarily suffer two strain to decrease the difficulty of the next Stealth or Skulduggery check by one, to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Master Pilot",
+        "i": 124,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "Once per round when piloting a starship (a ship piloted using the Piloting (Space) skill), the character may voluntarily suffer two strain to perform any action as a maneuver instead."
+    },
+    {
+        "name": "Master Slicer",
+        "i": 125,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "Once per round, the character may perform a Master Slicer incidental to suffer two strain and decrease the difficulty of the next Computers or other slicing-related check by one, to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Master Starhopper",
+        "i": 126,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Fringer"
+        ],
+        "description": "Once per round, the character may suffer two strain to decrease the difficulty of their next Astrogation check by one, to a minimum of Easy (1d)."
+    },
+    {
+        "name": "Mental Fortress",
+        "i": 127,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scholar",
+            "Slicer"
+        ],
+        "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Intellect or Cunning related checks until the end of the encounter. They still suffer from the injury itself."
+    },
+    {
+        "name": "Mind Over Matter",
+        "i": 128,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "The character may spend one Destiny Point to recover strain equal to their Willpower rating."
+    },
+    {
+        "name": "More Machine than Man",
+        "i": 129,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "Each rank of More Machine than Man increases the character's cybernetic implant cap by 1."
+    },
+    {
+        "name": "Museum Worthy",
+        "i": 130,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Archaeologist"
+        ],
+        "description": "Once per game session, the character may take an action to make a Hard (3d) Knowledge (Education) check regarding a single relic, ruin, or piece of galactic history (subject to the GM's approval). If successful, the character knows an amount of information about the item based on the number of rolled."
+    },
+    {
+        "name": "Natural Athlete",
+        "i": 131,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Performer"
+        ],
+        "description": "Once per game session, the character may reroll any one Athletics or Coordination check."
+    },
+    {
+        "name": "Natural Brawler",
+        "i": 132,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Marauder",
+            "Martial Artist"
+        ],
+        "description": "Once per game session, the character may reroll any one Brawl or Melee check."
+    },
+    {
+        "name": "Natural Charmer",
+        "i": 133,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Politico",
+            "Scoundrel",
+            "Charmer"
+        ],
+        "description": "Once per game session, the character may reroll any one Charm or Deception check."
+    },
+    {
+        "name": "Natural Doctor",
+        "i": 134,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "Once per game session, the character may reroll any one Medicine check."
+    },
+    {
+        "name": "Natural Driver",
+        "i": 135,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": "Once per game session, the character may reroll any one Piloting (Planetary) or Gunnery check."
+    },
+    {
+        "name": "Natural Enforcer",
+        "i": 136,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer",
+            "Enforcer"
+        ],
+        "description": "Once per game session, the character may reroll any one Coercion or Streetwise check."
+    },
+    {
+        "name": "Natural Hunter",
+        "i": 137,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scout",
+            "Big-Game Hunter"
+        ],
+        "description": "Once per game session, the character may reroll any one Perception or Vigilance check."
+    },
+    {
+        "name": "Natural Marksman",
+        "i": 138,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Mercenary Soldier",
+            "Marshal",
+            "Gunslinger"
+        ],
+        "description": "Once per game session, the character may reroll any one Ranged (Light) or Ranged (Heavy) check."
+    },
+    {
+        "name": "Natural Merchant",
+        "i": 139,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Entrepreneur"
+        ],
+        "description": "Once per game session, the character may reroll any one Streetwise or Negotiation check."
+    },
+    {
+        "name": "Natural Negotiator",
+        "i": 140,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Trader",
+            "Gambler"
+        ],
+        "description": "Once per game session, the character may reroll any one Cool or Negotiation check."
+    },
+    {
+        "name": "Natural Outdoorsman",
+        "i": 141,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Survivalist"
+        ],
+        "description": "Once per game session, the character may reroll any one Resilience or Survival check."
+    },
+    {
+        "name": "Natural Pilot",
+        "i": 142,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "Once per game session, the character may reroll any one Piloting (Space) or Gunnery check."
+    },
+    {
+        "name": "Natural Programmer",
+        "i": 143,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "Once per game session, the character may reroll any one Computers or Astrogation check."
+    },
+    {
+        "name": "Natural Rogue",
+        "i": 144,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Thief",
+            "Gambler"
+        ],
+        "description": "Once per game session, the character may reroll any one Skulduggery or Stealth check."
+    },
+    {
+        "name": "Natural Scholar",
+        "i": 145,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scholar"
+        ],
+        "description": "Once per game session, the character may reroll any one Knowledge skill check."
+    },
+    {
+        "name": "Natural Tinkerer",
+        "i": 146,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Mechanic",
+            "Modder"
+        ],
+        "description": "Once per game session, the character may reroll any one Mechanics check."
+    },
+    {
+        "name": "Nobody's Fool",
+        "i": 147,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Politico",
+            "Trader",
+            "Skip Tracer"
+        ],
+        "description": "The difficulty of any Charm, Coercion, or Deception checks attempted against the character are once for each rank of Nobody's Fool."
+    },
+    {
+        "name": "Offensive Driving",
+        "i": 148,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Operator"
+        ],
+        "description": "As a maneuver, the character may inflict a number of system strain on their vehicle no greater than its highest defense value and choose a vehicle within close range. If the character does so, upgrade the difficulty of the next Piloting (Planetary) or Piloting (Space) check that vehicle's pilot makes before the end of the encounter, once for each system strain inflicted on the character's craft this way."
+    },
+    {
+        "name": "Outdoorsman",
+        "i": 149,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Survivalist",
+            "Big-Game Hunter"
+        ],
+        "description": "The character removes 1s per rank of Outdoorsman from checks to move through terrain or manage terrain or environmental effects. Decrease overland travel times by 50%. This does not decrease with multiple ranks of Outdoorsman."
+    },
+    {
+        "name": "Overbalance",
+        "i": 150,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "Whenever an enemy engaged with the character makes a combat check, after the attack is resolved the character may spend 1 Despair or 3 Threat to stagger the attacker until the end of the attacker's next turn."
+    },
+    {
+        "name": "Overcharge",
+        "i": 151,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "Once per encounter, the character may take the Overcharge action by making a Hard (3d) Mechanics check and choosing one of their cybernetic implants that grants them one or more of the following: +1 to a characteristic rating, +1 rank to a skill, or +1 rank of a ranked talent. If they succeed, until the end of the encounter, the chosen cybernetic provides an additional +1 to any characteristic ratings (to a maximum of 7), an additional +1 ranks to any skills (to a maximum of 5), and an additional +1 rank of any ranked talents that it provides. The GM may spend Despair from the check to have the overcharged cybernetic short out at the end of the encounter; it provides no benefit until the character spends several hours making an Average (2d) Mechanics check to repair it."
+    },
+    {
+        "name": "Overcharge (Improved)",
+        "i": 152,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "Once per round when using the Overcharge action, the character may spend 2 Advantage or 1 Triumph from the Mechanics check to immediately take one additional action."
+    },
+    {
+        "name": "Overcharge (Supreme)",
+        "i": 153,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Cyber Tech"
+        ],
+        "description": "When performing the Overcharge action, the character may choose any number of cybernetic implants to attempt to overcharge instead of just one. If they do, upgrade the difficulty of the Mechanics check once for each additional cybernetic beyond the first. The GM may spend Despair from the check to have any one overcharged cybernetic short out at the end of the encounter; each cybernetic that shorts out provides no benefit until the character spends several hours making an Average (2d) Mechanics check to repair it."
+    },
+    {
+        "name": "Overwhelm Defenses",
+        "i": 154,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Operator"
+        ],
+        "description": "Upon making an unsuccessful attack with a starship or vehicle weapon, the character may spend per 2 Advantage rank of Overwhelm Defenses. Reduce the defense rating in the defense zone targeted by the attack for the remainder of the encounter by 1 for every 2 Advantage spent."
+    },
+    {
+        "name": "Overwhelm Emotions",
+        "i": 155,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "When the character performs a Charm, Coercion, or Deception check, they may include #f equal to their Force rating. Each Light adds Success to Charm checks. Each Dark adds Success to Coercion or Deception checks. However, every 2 Light add Failure to Coercion or Deception checks, and every 2 Dark add Failure to Charm checks. This does not apply to targets immune to Force powers."
+    },
+    {
+        "name": "Parry",
+        "i": 156,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "When the character suffers a hit from a Brawl, Melee, or Lightsaber combat check, after damage is calculated (but before soak is applied), the character may take a Parry incidental. They suffer 3 strain and reduce the damage dealt by that hit by a number equal to 2 plus their ranks in Parry. This talent may only be used once per hit and when the character is wielding a Melee weapon or Lightsaber."
+    },
+    {
+        "name": "Pin",
+        "i": 157,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Archaeologist"
+        ],
+        "description": "The character may take the Pin action. By successfully passing an Opposed Athletics check against an engaged opponent, the character immobilizes that opponent until the end of the character's next turn. In addition, the character may spend 1 Triumph generated on the check to increase the duration of the immobilization by one round."
+    },
+    {
+        "name": "Planet Mapper",
+        "i": 158,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Operator"
+        ],
+        "description": "The character removes 1s per rank of Planet Mapper from their Streetwise or Survival checks used to navigate on a world. In addition, such checks take 50% less time. This does not decrease with additional ranks of Planet Mapper."
+    },
+    {
+        "name": "Plausible Deniabi1ity",
+        "i": 159,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Politico",
+            "Entrepreneur",
+            "Charmer"
+        ],
+        "description": "Remove 1s per rank of Plausible Deniability from all Coercion and Deception checks the character attempts."
+    },
+    {
+        "name": "Point Blank",
+        "i": 160,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gadgeteer",
+            "Mercenary Soldier",
+            "Marshal"
+        ],
+        "description": "The character adds one damage per rank of Point Blank to one hit of successful Ranged (Heavy) or Ranged (Light) attacks made while at short range or engaged."
+    },
+    {
+        "name": "Powerful Blast",
+        "i": 161,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "The character increases the damage dealt by the Blast quality of explosives, explosive weapons, and grenades they use by +1 per rank of Powerful Blast."
+    },
+    {
+        "name": "Precise Aim",
+        "i": 162,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Assassin"
+        ],
+        "description": "Once per round on the character's turn, the character may perform a Precise Aim maneuver before attempting a combat check and suffer a number of strain. The number of strain cannot exceed their ranks in Precise Aim. They then decrease the target's defense (ranged and melee) by one per strain suffered for that combat check."
+    },
+    {
+        "name": "Precision Strike",
+        "i": 163,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "When the character inflicts a Critical Injury with a Brawl, Melee, or Lightsaber weapon. they may suffer 1 strain to change the result to any Easy (1d) Critical Injury result. Additionally, whenever the character defeats a minion or rival NPC, they may always choose to do so by nonlethal means, even if the environment or exceptional circumstances would normally make that very difficult or impossible."
+    },
+    {
+        "name": "Precision Strike (Improved)",
+        "i": 164,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "Once per round, when the character inflicts a Critical Injury with a Brawl or Melee weapon, they may suffer 2 strain to change the result to any Average (2d) Critical Injury result."
+    },
+    {
+        "name": "Precision Strike (Supreme)",
+        "i": 165,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "Once per game session, when the character inflicts a Critical Injury with an unarmed attack, they may suffer 3 strain to change the result to any Hard (3d) Critical Injury result. Combat checks to activate this talent cannot be made with any weapons."
+    },
+    {
+        "name": "Pressure Point",
+        "i": 166,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "When making a Brawl check against a living opponent, the character may choose to forgo dealing damage as wounds, instead dealing the equivalent damage as strain, plus additional strain equal to their ranks in Medicine. These checks cannot be made with any weapons, but this strain damage is not reduced by soak."
+    },
+    {
+        "name": "Quick Draw",
+        "i": 167,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Assassin",
+            "Force Sensitive Exile",
+            "Scoundrel",
+            "Marshal",
+            "Gunslinger"
+        ],
+        "description": "Once per round on the character's turn, they may draw or holster an easily accessible weapon as an incidental, not a maneuver. This talent also reduces the amount of time to draw or stow a weapon that usually requires more than one maneuver to properly prepare or stow, by one maneuver."
+    },
+    {
+        "name": "Quick Draw (Improved)",
+        "i": 168,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gunslinger"
+        ],
+        "description": "The character may activate the Quick Draw talent twice per round (instead of just once per round)."
+    },
+    {
+        "name": "Quick Strike",
+        "i": 169,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Scoundrel",
+            "Scout",
+            "Big-Game Hunter",
+            "Gunslinger"
+        ],
+        "description": "When performing a combat check during combat, the character adds 1b per rank of Quick Strike to combat checks against any target that has not yet acted in the encounter."
+    },
+    {
+        "name": "Rain of Death",
+        "i": 170,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Heavy"
+        ],
+        "description": "The character may perform the Rain of Death maneuver. If they do so, when they make an attack in the same turn, they do not increase the difficulty of the attack due to the Auto-fire quality."
+    },
+    {
+        "name": "Rapid Reaction",
+        "i": 171,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Scoundrel",
+            "Thief",
+            "Demolitionist",
+            "Gunslinger"
+        ],
+        "description": "The character may suffer a number of strain to add an equal number of Success to any Vigilance or Cool check to determine initiative order. The number may not exceed their ranks in Rapid Reaction."
+    },
+    {
+        "name": "Rapid Recovery",
+        "i": 172,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Fringer",
+            "Pilot",
+            "Scout",
+            "Skip Tracer",
+            "Entrepreneur"
+        ],
+        "description": "When this character heals strain after an encounter has concluded, they heal one additional strain per rank in Rapid Recovery."
+    },
+    {
+        "name": "Reconstruct the Scene",
+        "i": 173,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Skip Tracer"
+        ],
+        "description": "Once per session, the character may perform the Reconstruct the Scene action. The character makes a Hard (3d) Perception check when present at a single crime scene (or similar location). If the character succeeds, they identify all prominent physical characteristics of one person who was at the crime scene in the last 24 hours per Success."
+    },
+    {
+        "name": "Redundant Systems",
+        "i": 174,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic",
+            "Droid Tech"
+        ],
+        "description": "With an Easy (1d) Mechanics check, the character may harvest components from a functioning device to repair a broken one, without breaking the functioning device. This allows the character to repair a broken device without having required spare parts, raw materials, or repair kits (the initial check does not suffer penalties for lacking repair kits, either). This only works, however, if the functioning device is at least the same size and technological level as the device being repaired (it is impossible to repair a starship with a blaster pistol, or a lightsaber with parts from a water wheel)."
+    },
+    {
+        "name": "Reroute Processors",
+        "i": 175,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Droid Tech"
+        ],
+        "description": "Once per encounter, the character may perform the Reroute Processors action on a droid they are engaged with by making an Average (2d) Computers check. If the character succeeds, they decrease one of the droid's characteristics by 1 (to a minimum of 0) until the end of the encounter and increase another of its characteristics by 1 (to a maximum of 7) until the end of the encounter. If the character is a droid, they may perform this action on themself."
+    },
+    {
+        "name": "Researcher",
+        "i": 176,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scholar",
+            "Archaeologist"
+        ],
+        "description": "The character removes 1s per rank of Researcher from all Knowledge checks. Researching takes 50% less time. This does not increase with multiple ranks of researcher."
+    },
+    {
+        "name": "Resolve",
+        "i": 177,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Doctor",
+            "Scholar",
+            "Slicer",
+            "Archaeologist",
+            "Charmer",
+            "Modder"
+        ],
+        "description": "When the character involuntarily suffers strain, they suffer one less strain per rank of Resolve, to a minimum of one. This does not apply to voluntary strain loss."
+    },
+    {
+        "name": "Resourceful Refit",
+        "i": 178,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Modder"
+        ],
+        "description": "Instead of removing an attachment to make room for a new one, the character may upgrade an old attachment into a new one. They can take the Resourceful Refit action by choosing an existing attachment installed in one of their items, starships, or vehicles and making an Average (2d) Mechanics check. If they succeed, they may destroy the chosen attachment and reduce the price of the next attachment they purchase and install in that item by the price of the attachment they destroyed (to a minimum of O credits). They must still acquire the new attachment, with an appropriate check based on its rarity, their location, and other relevant factors."
+    },
+    {
+        "name": "Respected Scholar",
+        "i": 179,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scholar",
+            "Archaeologist"
+        ],
+        "description": "The character downgrades the difficulty of checks to interact with institutions of learning equal to their ranks in Respected Scholar."
+    },
+    {
+        "name": "Second Chances",
+        "i": 180,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "Once per encounter, after the character has rolled a skill check (but before resolving the result), they choose a number of positive dice from their dice pool up to the number of their ranks in Second Chances and re-roll them. The character must accept the second result. This talent cannot be used to re-roll any #f."
+    },
+    {
+        "name": "Selective Detonation",
+        "i": 181,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "When using any weapon with the Blast quality or explosive device, the character may spend Advantage or Triumph to exclude one target that would normally be affected by the explosion. Multiple targets may be excluded in this manner, but the total number may not exceed their ranks in Selective Detonation."
+    },
+    {
+        "name": "Scathing Tirade",
+        "i": 182,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Politico"
+        ],
+        "description": "The character may take the Scathing Tirade action; making an Average(2d) Coercion check. For each Successs, one enemy within short range suffers one strain. The character can also spend Advantage; for every Advantage spent, one target already affected suffers 1 additional strain."
+    },
+    {
+        "name": "Scathing Tirade (Improved)",
+        "i": 183,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Politico"
+        ],
+        "description": "Each enemy affected by Scathing Tirade suffers 1s on all skill checks for a number of rounds equal to the character's ranks in Coercion; this does not stack with itself."
+    },
+    {
+        "name": "Scathing Tirade (Supreme)",
+        "i": 184,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Politico"
+        ],
+        "description": "The character may voluntarily suffer one strain to perform Scathing Tirade as a maneuver instead of an action."
+    },
+    {
+        "name": "Second Wind",
+        "i": 185,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Mercenary Soldier",
+            "Performer",
+            "Enforcer"
+        ],
+        "description": "Once per encounter, the character may use a Second Wind incidental to recover an amount of strain equal to their ranks in Second Wind."
+    },
+    {
+        "name": "Sense Danger",
+        "i": 186,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "Once per game session, the character may remove 2s from any one skill check."
+    },
+    {
+        "name": "Sense Emotions",
+        "i": 187,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "The character adds 1b to all Charm, Coercion, and Deception checks unless the target is immune to Force Powers."
+    },
+    {
+        "name": "Shortcut",
+        "i": 188,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scout",
+            "Thief",
+            "Operator"
+        ],
+        "description": "During a chase, the character adds #b equal to their ranks in Shortcut to any checks made to catch or escape an opponent."
+    },
+    {
+        "name": "Shortcut (Improved)",
+        "i": 189,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Operator"
+        ],
+        "description": "When engaging in a chase or race, the character may suffer two strain to add Success equal to ranks in Shortcut to the check."
+    },
+    {
+        "name": "Side Step",
+        "i": 190,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Mercenary Soldier",
+            "Scoundrel",
+            "Outlaw Tech,Heavy"
+        ],
+        "description": "Once per round on the character's turn, the character may perform a Side Step maneuver to side step and try to avoid incoming ranged attacks. They then suffer a number of strain no greater than their ranks in Side Step. Until the start of the character's next turn, upgrade the difficulty of all ranged combat checks targeting the character a number of times equal to the strain suffered by the character."
+    },
+    {
+        "name": "Signature Vehicle",
+        "i": 191,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Modder"
+        ],
+        "description": "The character chooses one starship or vehicle with a silhouette or 3 or lower that they own. That starship or vehicle is the character's \"Signature Vehicle.\" They upgrade the ability of all Mechanics checks made to work on the vehicle once. If the starship or vehicle is ever lost or destroyed. the character may apply Signature Vehicle to a new starship or vehicle that meets the requirements. The process of modifying and acclimating to the new vehicle may take some time. at the GM's discretion. - No two characters can have the same vehicle as their Signature Vehicle."
+    },
+    {
+        "name": "Sixth Sense",
+        "i": 192,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "The character gains +1 ranged defense."
+    },
+    {
+        "name": "Skilled Jockey",
+        "i": 193,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Fringer",
+            "Pilot",
+            "Operator"
+        ],
+        "description": "The character removes 1s per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts."
+    },
+    {
+        "name": "Skilled Slicer",
+        "i": 194,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "When making a Computers check, the character may spend Triumph to gain some measure of control over the target system. Any further Computers checks within this system can be made as maneuvers."
+    },
+    {
+        "name": "Smooth Talker",
+        "i": 195,
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Trader",
+            "Performer",
+            "Charmer",
+            "Gambler"
+        ],
+        "description": "When a character acquires this talent, they choose one skill: Charm, Coercion, Negotiation, or Deception. When making checks with that skill, they may spend to gain additional Success equal to their ranks in Smooth Talker."
+    },
+    {
+        "name": "Sniper Shot",
+        "i": 196,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Mercenary Soldier"
+        ],
+        "description": "Once per round before making a non-thrown ranged attack, the character may perform a maneuver to attempt a Sniper Shot. Sniper Shot increases the maximum range of their ranged weapon up to one range band per rank. For each rank beyond the normal maximum of the weapon, upgrade the difficulty of the check by one (this is in addition to the increased difficulty of the shot due to longer range)."
+    },
+    {
+        "name": "Soft Spot",
+        "i": 197,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scoundrel",
+            "Survivalist",
+            "Skip Tracer"
+        ],
+        "description": "After making a successful attack with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Cunning to one hit of the successful attack."
+    },
+    {
+        "name": "Solid Repairs",
+        "i": 198,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Mechanic",
+            "Outlaw Tech"
+        ],
+        "description": "The character repairs +1 hull trauma per rank of Solid Repairs whenever they repair a vehicle or starship."
+    },
+    {
+        "name": "Sorry About the Mess",
+        "i": 199,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gunslinger"
+        ],
+        "description": "The character decreases the critical rating of any non-starship weapon they wield by 1 (to a minimum of 1) against targets that have not yet acted this encounter."
+    },
+    {
+        "name": "Sound Investments",
+        "i": 200,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Entrepreneur"
+        ],
+        "description": "At the beginning of each game session, the character gains credits equal to their ranks in Sound Investments times 100. How this money is earned is up to the player and the GM, and could be actual investments, business dealings, or even a small legal or illegal side business. The GM can also decide that the current events of the adventure may make these funds temporarily unavailable."
+    },
+    {
+        "name": "Spare Clip",
+        "i": 201,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer",
+            "Trader",
+            "Heavy"
+        ],
+        "description": "The character does not run out of ammo on a Despair. Items with Limited Ammo quality run out of ammo as normal."
+    },
+    {
+        "name": "Speaks Binary",
+        "i": 202,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Outlaw Tech",
+            "Scholar",
+            "Droid Tech"
+        ],
+        "description": "The character grants 1b per rank of Speaks Binary to any tasks they direct a non-player droid to perform."
+    },
+    {
+        "name": "Speaks Binary (Improved)",
+        "i": 203,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Droid Tech"
+        ],
+        "description": "When the character directs a Non-Player Character droid to assist any character with a check, that droid provides an additional 1b to the check for which it is assisting (beyond the usual benefits of assistance)."
+    },
+    {
+        "name": "Speaks Binary (Supreme)",
+        "i": 204,
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Droid Tech"
+        ],
+        "description": "Once per encounter, the character may perform the Speaks Binary maneuver, choosing one skill. Until the beginning of their next turn, a number of Non-Player Character, non-minion droids up to their rank in Speaks Binary may use the character's ranks in the chosen skill (rather than their own ranks in that skill)."
+    },
+    {
+        "name": "Spitfire",
+        "i": 205,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gunslinger"
+        ],
+        "description": "After the character makes a successful combined check with two Ranged (Light) weapons, each additional hit generated as part of the attack can be allocated to any other target within range of the weapon."
+    },
+    {
+        "name": "Stalker",
+        "i": 206,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Assassin",
+            "Scout",
+            "Survivalist",
+            "Thief,Big-Game Hunter"
+        ],
+        "description": "The character adds 1b per rank of Stalker to all Coordination and Stealth checks."
+    },
+    {
+        "name": "Steady Nerves",
+        "i": 207,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "The character removes 1s per rank of Steady Nerves from Cool or Skulduggery checks."
+    },
+    {
+        "name": "Steely Nerves",
+        "i": 208,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Politico",
+            "Trader"
+        ],
+        "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Presence or Willpower related checks until the end of the encounter. They still suffer from the injury itself."
+    },
+    {
+        "name": "Stim Application",
+        "i": 209,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "The character may take the Stim Application action. To perform this action, they must have access to drugs, a medpac, or stimpacks. They make an Average (2d) Medicine check. If successful, one ally they are engaged with (including themself) increases one characteristic of the character's choice by one for the remainder of the encounter, and suffers four strain. A single character's individual characteristics may each only be increased once by Stim Application during an encounter."
+    },
+    {
+        "name": "Stim Application (Improved)",
+        "i": 210,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "As an incidental, when performing the Stim Application action, the character may increase the difficulty of the Medicine check to Hard (3d) as an incidental. If they do so, the target of the action suffers one strain instead of four."
+    },
+    {
+        "name": "Stim Application (Supreme)",
+        "i": 211,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Doctor"
+        ],
+        "description": "When performing the Stim Application action, each Triumph may be spent to increase an additional characteristic by one."
+    },
+    {
+        "name": "Street Smarts",
+        "i": 212,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Fringer",
+            "Force Sensitive Exile",
+            "Thief",
+            "Skip Tracer",
+            "Marshal",
+            "Enforcer"
+        ],
+        "description": "Remove 1s per rank of Street Smarts from any Streetwise or Knowledge (Underworld) checks the character attempts."
+    },
+    {
+        "name": "Street Smarts (Improved)",
+        "i": 213,
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Skip Tracer"
+        ],
+        "description": "Once per session the character may perform the Improved Street Smarts action. They make a Formidable (5d) Streetwise or Knowledge (Underworld) check, reducing the difficulty once per rank of Street Smarts. If successful, the GM must reveal one vital clue pertaining to a current mystery the character is attempting to solve."
+    },
+    {
+        "name": "Stroke of Genius",
+        "i": 214,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scholar"
+        ],
+        "description": "Once per game session, the character can choose to make one skill check using Intellect, rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their intelligence is helping them overcome this challenge."
+    },
+    {
+        "name": "Strong Arm",
+        "i": 215,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Mercenary Soldier"
+        ],
+        "description": "Characters with the Strong Arm talent treat thrown weapons as if they had one step greater range, to a maximum of medium range."
+    },
+    {
+        "name": "Stunning Blow",
+        "i": 216,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer",
+            "Archaeologist",
+            "Enforcer"
+        ],
+        "description": "When making Melee checks, the character may choose to deal damage as strain instead of wounds. This does not ignore soak."
+    },
+    {
+        "name": "Stunning Blow (Improved)",
+        "i": 217,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gadgeteer"
+        ],
+        "description": "When dealing strain damage with Melee or Brawl checks, the character may spend a Triumph result to Stagger their target for one round per Triumph spent."
+    },
+    {
+        "name": "Superior Reflexes",
+        "i": 218,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile",
+            "Big-Game Hunter"
+        ],
+        "description": "The character gains +1 melee defense."
+    },
+    {
+        "name": "Surgeon",
+        "i": 219,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Doctor",
+            "Cyber Tech"
+        ],
+        "description": "When this character makes a Medicine check to help a character heal wounds, the target heals one additional wound per rank of Surgeon."
+    },
+    {
+        "name": "Swift",
+        "i": 220,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Survivalist",
+            "Big-Game Hunter"
+        ],
+        "description": "The character does not suffer the penalties for moving through difficult terrain (they move through it at normal speed, without spending additional maneuvers)."
+    },
+    {
+        "name": "Talk the Talk",
+        "i": 221,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Enforcer"
+        ],
+        "description": "When making a Knowledge skill check, the character may spend one Destiny Point to substitute Knowledge (Underworld) or Streetwise for the required skill. Any information gathered by a subsequent success on this check may be suitably embellished by the GM to reflect its criminal and underworld origins."
+    },
+    {
+        "name": "Targeted Blow",
+        "i": 222,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Assassin"
+        ],
+        "description": "On a successful attack during combat with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Agility to one hit of the successful attack."
+    },
+    {
+        "name": "Technical Aptitude",
+        "i": 223,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": "For each rank, the character reduces the amount of time needed to complete Computer-related tasks by 25%."
+    },
+    {
+        "name": "Throwing Credits",
+        "i": 224,
+        "activation": "Active",
+        "ranked": false,
+        "trees": [
+            "Entrepreneur"
+        ],
+        "description": "At the beginning of the session (after the GM has rolled to trigger Obligation), the character may choose to spend 100 credits. If they do so, they ignore any penalties to their strain threshold due to Obligation being triggered (if their own Obligation is triggered, it may still have plot complications, but they ignore the mechanical penalty). This may represent the character temporarily dealing with the Obligation via a few credits, or simply indulging in some sort of diversion that takes their mind off their problems."
+    },
+    {
+        "name": "Time to Go",
+        "i": 225,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "The character may spend one Destiny Point to perform a Move maneuver as an incidental. This maneuver may only be used to move into cover or out of the blast radius of an explosion. This incidental occurs after the character determines they would be hit by the blast, but before damage is applied. The GM may allow the character to use this talent in other situations to get out of harm's way, but only at the GM's discretion."
+    },
+    {
+        "name": "Time to Go (Improved)",
+        "i": 226,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Demolitionist"
+        ],
+        "description": "When activating Time to Go, the character may allow one ally they are engaged with to perform an out of turn Move maneuver as an incidental. This maneuver may only be used to move into cover or out of the blast radius of an explosion. This incidental occurs after the ally determines they would be hit by the blast, but before damage is applied."
+    },
+    {
+        "name": "Tinkerer",
+        "i": 227,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gadgeteer",
+            "Outlaw Tech",
+            "Modder"
+        ],
+        "description": "The character makes one piece of equipment more modifiable. They choose one piece of equipment and increase its number of hard points by one. They can only do this once per piece of equipment, but can modify a number of pieces of equipment equal to their ranks in Tinkerer. If they lose a modified piece of equipment, they may apply Tinkerer to a new one."
+    },
+    {
+        "name": "Touch of Fate",
+        "i": 228,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "Once per game session, the character may add 2b to any one skill check."
+    },
+    {
+        "name": "Toughened",
+        "i": 229,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Bodyguard",
+            "Fringer",
+            "Gadgeteer",
+            "Marauder",
+            "Mechanic",
+            "Outlaw Tech",
+            "Pilot",
+            "Politico",
+            "Scholar",
+            "Scoundrel",
+            "Scout",
+            "Mercenary Soldier",
+            "Survivalist",
+            "Trader",
+            "Martial Artist",
+            "Skip Tracer",
+            "Entrepreneur",
+            "Marshal",
+            "Performer",
+            "Archaeologist",
+            "Big-Game Hunter",
+            "Enforcer",
+            "Demolitionist",
+            "Heavy",
+            "Gambler",
+            "Gunslinger",
+            "Cyber Tech",
+            "Modder"
+        ],
+        "description": "The character increases their wound threshold by two per rank of Toughened."
+    },
+    {
+        "name": "Tricky Target",
+        "i": 230,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": "Any vehicle the character pilots counts as having a silhouette one lower than normal when being attacked, to a minimum of 0."
+    },
+    {
+        "name": "True Aim",
+        "i": 231,
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Mercenary Soldier"
+        ],
+        "description": "Once per round, before the character makes a ranged attack, they may perform a True Aim maneuver. By performing this maneuver, the character gains all the benefits for aiming and also upgrades their attack roll once per rank of True Aim."
+    },
+    {
+        "name": "Unarmed Parry",
+        "i": 232,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Martial Artist"
+        ],
+        "description": "The character may perform the Parry incidental while unarmed. When the character performs the Parry incidental while unarmed, reduce the strain they suffer from the Parry incidental by 1, to a minimum of 1."
+    },
+    {
+        "name": "Uncanny Reactions",
+        "i": 233,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "The character adds 1b per rank of Uncanny Reactions to all Vigilance checks."
+    },
+    {
+        "name": "Uncanny Senses",
+        "i": 234,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force Sensitive Exile"
+        ],
+        "description": "The character adds 1b per rank of Uncanny Senses to all Perception checks."
+    },
+    {
+        "name": "Unrelenting Skeptic",
+        "i": 235,
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Marshal"
+        ],
+        "description": "When targeted by a Deception check, the character automatically adds Failure to the check equal to their ranks in Vigilance."
+    },
+    {
+        "name": "Unrelenting Skeptic (Improved)",
+        "i": 236,
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Marshal"
+        ],
+        "description": "When targeted by a Deception check that fails, the character may spend one Destiny Point to retroactively add Despair to the pool results."
+    },
+    {
+        "name": "Up the Ante",
+        "i": 237,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gambler"
+        ],
+        "description": "When the character wins at gambling, they earn 10% more credits per rank of Up the Ante."
+    },
+    {
+        "name": "Utility Belt",
+        "i": 238,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Outlaw Tech",
+            "Scout",
+            "Cyber Tech"
+        ],
+        "description": "The character may spend one Destiny Point to perform a Utility Belt incidental to produce a previously undocumented -- but essential -- small tool from their utility belt, satchel, or pockets, with a rarity no greater than (4). This cannot be a weapon unless the weapon has the Limited Ammo 1 quality."
+    },
+    {
+        "name": "Utinni!",
+        "i": 239,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Outlaw Tech"
+        ],
+        "description": "The character removes equal #s to the character's ranks in Utinni! from checks made to find or scavenge items or gear. These checks could include Negotiation, Perception, or other checks, depending on circumstances and the GM's discretion. Such skill checks take half their normal time. This does not decrease with multiple ranks of Utinni!."
+    },
+    {
+        "name": "Walk the Walk",
+        "i": 240,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Enforcer"
+        ],
+        "description": "The character may spend one Destiny Point to add damage equal to their ranks in Streetwise to one hit of a successful Brawl check."
+    },
+    {
+        "name": "Well Rounded",
+        "i": 241,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Politico",
+            "Scholar",
+            "Archaeologist"
+        ],
+        "description": "The character chooses any two skills. They permanently become career skills."
+    },
+    {
+        "name": "Wheel and Deal",
+        "i": 242,
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Trader",
+            "Entrepreneur"
+        ],
+        "description": "When they sell legal goods to a reputable merchant or business, the character gains an additional 10% more credits per rank of Wheel and Deal (based on the original sell price of the good or item)."
+    },
+    {
+        "name": "Works Like a Charm",
+        "i": 243,
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Charmer"
+        ],
+        "description": "Once per game session, the character can choose to make one skill check using Presence rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their social ability helps them overcome this challenge."
+    }
+]
