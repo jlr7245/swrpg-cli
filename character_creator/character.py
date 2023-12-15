@@ -2,7 +2,7 @@ from character_creator.skill import Skillset
 
 class Character:
 
-    def __init__(self, name, species):
+    def __init__(self, name, species, career):
         # basic stats
         self.name = name
         self.credits = 500
@@ -12,6 +12,9 @@ class Character:
         # composed from species
         self.species = species
 
+        # composed from career
+        self.career = career
+
     # various additional setups
     def setup_from_species(self):
         """Runs species-specific starting functions"""
@@ -19,6 +22,10 @@ class Character:
         self.species.species_bonus_choice(self)
         self.xp = self.species.starting_xp
         self.spendable_xp = self.species.starting_xp
+
+    def setup_from_career(self):
+        """Runs career-specific starting functions"""
+        self.career.starting_career_skills(self)
 
 
     # skills

@@ -3,6 +3,7 @@ import PyInquirer
 from character_creator.character import Character
 from character_creator.utils import pickler
 from character_creator.species import SpeciesName, species_lookup
+from character_creator.careers import CareerName, careers_lookup
 
 
 def create_character():
@@ -13,11 +14,16 @@ def create_character():
         "type": "list", "name": "species",
         "message": "Choose a species",
         "choices": SpeciesName.values()
+    }, {
+        "type": "list", "name": "career",
+        "message": "Choose a career",
+        "choices": CareerName.values()
     }])
     name = base_character_info["name"]
     species = species_lookup[base_character_info["species"]]
+    career = careers_lookup[base_character_info["career"]]
 
-    new_char = Character(name, species())
+    new_char = Character(name, species(), career())
 
     new_char.setup_from_species()
 

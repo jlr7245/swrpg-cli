@@ -23,6 +23,7 @@ class CLIActions:
     CREATE_CHARACTER = "Make a character"
     LOAD_CHARACTER = "Load a character"
     UPDATE_CHARACTER = "Update this character"
+    SETUP_CHARACTER = "Set up this character"
     EXIT = "Exit"
     RETURN_HOME = "Return home"
 

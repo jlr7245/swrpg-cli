@@ -54,8 +54,8 @@ def roll_dice():
 
 
 def create_character_option():
-    create_character()
-    now_what(CLIActions.CREATE_CHARACTER, create_character_option)
+    character = create_character()
+    now_what(CLIActions.SETUP_CHARACTER, update_character_option, character)
 
 def update_character_option(character):
     update_character(character)
