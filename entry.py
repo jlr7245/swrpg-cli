@@ -1,4 +1,5 @@
-from interface import interface
+from interface.interface import Interface
 
 if __name__ == '__main__':
-    interface.ask_type()
+    session = Interface()
+    session.ask_type()

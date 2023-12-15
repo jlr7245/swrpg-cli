@@ -9,6 +9,9 @@ Project for me, a person who wanted to build something moderately complex in pyt
 - Install requirements: `pip install -r requirements.txt`
 - Run the program: `python entry.py`
 
+
+> You may run into an error along the lines of `Cannot import name "Mapping" from "collections"`. As per [this stackoverflow post](https://stackoverflow.com/questions/71595728/pip-importerror-cannot-import-name-mapping-from-collections), the solution here is to go into `path/to/venv/lib/python3.11/site-packages/prompt_toolkit/styles/from_dict.py` and change ln 9 from `from collections import Mapping` to `from collections.abc import Mapping`. 
+
 ## Dice Roller
 
 Star Wars RPG has a fairly unique dice system:
