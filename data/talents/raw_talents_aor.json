@@ -1,0 +1,1743 @@
+[
+    {
+        "name": "Adversary",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "NPC only"
+        ],
+        "description": ""
+    },
+    {
+        "name": "All-Terrain Driver",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Anatomy Lessons",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Armor Master",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Armor Master (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Bacta Specialist",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Bad Motivator",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Balance",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Basic Combat Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Blooded",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Body Guard",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Bought Info",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Brace",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Gunner",
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Brilliant Evasion",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Pilot",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Bypass Security",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Careful Planning",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Clever Solution",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Codebreaker",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Command",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commodore",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Commanding Presence",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commodore",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Confidence",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ambassador",
+            "Squadron Leader",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Contraption",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Convincing Demeanor",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Coordinated Assault",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Creative Killer",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Crippling Blow",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dead to Rights",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dead to Rights (Improved)",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Deadly Accuracy",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Debilitating Shot",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dedication",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Agitator",
+            "Ambassador",
+            "Commando",
+            "Commodore",
+            "Driver",
+            "Force-Sensitive Emergent",
+            "Gunner",
+            "Infiltrator",
+            "Mechanic",
+            "Medic",
+            "Pilot",
+            "Quartermaster",
+            "Recruit",
+            "Saboteur",
+            "Scientist",
+            "Scout",
+            "Sharpshooter",
+            "Slicer",
+            "Squadron Leader",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Driving",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Driver",
+            "Pilot",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Slicing",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Slicing (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Stance",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Disorient",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dodge",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": true,
+        "trees": [
+            "Ambassador",
+            "Medic",
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Durable",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando",
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dynamic Fire",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Enduring",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gunner",
+            "Mechanic",
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Exhaust Port",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Expert Tracker",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Familiar Suns",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Commodore",
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Feral Strength",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Commander"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Field Commander",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Field Commander (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Fine Tuning",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Driver",
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Fire Control",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Commodore"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Forager",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Medic",
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force of Will",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Rating",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Form on Me",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Frenzied Attack",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Full Stop",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Driver",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Full Throttle",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Driver",
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Full Throttle (Improved)",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Driver",
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Full Throttle (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Driver",
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Galaxy Mapper",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commodore",
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Gearhead",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Driver",
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Greased Palms",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Grit",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Agitator",
+            "Ambassador",
+            "Commando",
+            "Commodore",
+            "Driver",
+            "Force-Sensitive Emergent",
+            "Gunner",
+            "Infiltrator",
+            "Mechanic",
+            "Medic",
+            "Pilot",
+            "Quartermaster",
+            "Recruit",
+            "Saboteur",
+            "Scientist",
+            "Scout",
+            "Sharpshooter",
+            "Slicer",
+            "Squadron Leader",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hard Headed",
+        "activation": "Active (Action)",
+        "ranked": true,
+        "trees": [
+            "Mechanic",
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hard Headed (Improved)",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic",
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Heightened Awareness",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Heroic Fortitude",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Commando",
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hidden Storage",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hold Together",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Commodore",
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Incite Rebellion",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Indistinguishable",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ambassador",
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Insight",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Inspiring Rhetoric",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Inspiring Rhetoric (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Inspiring Rhetoric (Supreme)",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intense Focus",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Quartermaster",
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intense Presence",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intimidating",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": true,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Inventor",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Invigorate",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "It's Not That Bad",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Jump Up",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator",
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Jury Rigged",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Kill with Kindness",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knockdown",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando",
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Know Somebody",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledge Specialization",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Known Schematic",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Commodore"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Let's Ride",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot",
+            "Scout",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Lethal Blows",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Doctor",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Driver",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Grenadier",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Leader",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Merchant",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master of Shadows",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Pilot",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Slicer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Starhopper",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Commodore"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Fortress",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scientist",
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Brawler",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Charmer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Doctor",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Driver",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Driver"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Enforcer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Hunter",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Leader",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Marksman",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Negotiator",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Outdoorsman",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Commando",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Pilot",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Programmer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Rogue",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Scholar",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Tinkerer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Nobody's Fool",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ambassador",
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Outdoorsman",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Recruit",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Overwhelm Defenses",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Physical Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Plausible Deniability",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Point Blank",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Powerful Blast",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Draw",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Recruit",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Fix",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Strike",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scout",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Rapid Reaction",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": true,
+        "trees": [
+            "Driver",
+            "Commodore"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Rapid Recovery",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Pilot",
+            "Saboteur",
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Redundant Systems",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Researcher",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Resolve",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Saboteur",
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Respected Scholar",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Scathing Tirade",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Scathing Tirade (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Scathing Tirade (Supreme)",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Second Wind",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Recruit",
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Selective Detonation",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sense Danger",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Shortcut",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Side Step",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Situational Awareness",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sixth Sense",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Skilled Jockey",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Driver",
+            "Pilot"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Skilled Slicer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sleight of Mind",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Smooth Talker",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sniper Shot",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Soft Spot",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Solid Repairs",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commodore",
+            "Mechanic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sound Investments",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Spare Clip",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Gunner",
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Speaks Binary",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stalker",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Steely Nerves",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stim Application",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stim Application (Improved)",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stim Application (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stimpack Specialization",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Street Smarts",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stroke of Genius",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Strong Arm",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stunning Blow",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stunning Blow (Improved)",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Infiltrator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Superior Reflexes",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Surgeon",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Swift",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Tactical Combat Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Targeted Blow",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Technical Aptitude",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Slicer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Time to Go",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Time to Go (Improved)",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Saboteur"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Tinkerer",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Touch of Fate",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Toughened",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando",
+            "Driver",
+            "Force-Sensitive Emergent",
+            "Gunner",
+            "Infiltrator",
+            "Mechanic",
+            "Medic",
+            "Pilot",
+            "Quartermaster",
+            "Recruit",
+            "Saboteur",
+            "Scout",
+            "Sharpshooter",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Tricky Target",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Driver",
+            "Pilot",
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "True Aim",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Gunner",
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Uncanny Reactions",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Uncanny Senses",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Unstoppable",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Utility Belt",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Scientist",
+            "Scout"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Vehicle Combat Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Well Rounded",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Well Traveled",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Wheel and Deal",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Quartermaster"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Works Like a Charm",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ambassador"
+        ],
+        "description": ""
+    }
+]

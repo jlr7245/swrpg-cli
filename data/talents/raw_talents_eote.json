@@ -702,7 +702,8 @@
         "trees": [
             "Force Sensitive Exile",
             "Scout",
-            "Survivalist,Big-Game Hunter"
+            "Survivalist",
+            "Big-Game Hunter"
         ],
         "description": "Remove up to 2s from skill checks to find food, water, or shelter. Survival checks to forage take half the time."
     },
@@ -2069,7 +2070,8 @@
             "Bodyguard",
             "Mercenary Soldier",
             "Scoundrel",
-            "Outlaw Tech,Heavy"
+            "Outlaw Tech",
+            "Heavy"
         ],
         "description": "Once per round on the character's turn, the character may perform a Side Step maneuver to side step and try to avoid incoming ranged attacks. They then suffer a number of strain no greater than their ranks in Side Step. Until the start of the character's next turn, upgrade the difficulty of all ranged combat checks targeting the character a number of times equal to the strain suffered by the character."
     },
@@ -2245,7 +2247,8 @@
             "Assassin",
             "Scout",
             "Survivalist",
-            "Thief,Big-Game Hunter"
+            "Thief",
+            "Big-Game Hunter"
         ],
         "description": "The character adds 1b per rank of Stalker to all Coordination and Stealth checks."
     },

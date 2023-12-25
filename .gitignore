@@ -2,5 +2,6 @@ venv/
 __pycache__/
 .vscode
 *.pkl
-*_dump.json
+*_dump.*
 scratch.py
+*.csv

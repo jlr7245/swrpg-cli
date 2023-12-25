@@ -1,0 +1,1480 @@
+[
+    {
+        "name": "Adversary",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "NPC only"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Against All Odds",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Anatomy Odds",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Animal Bond",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Animal Empathy",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Ataru Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Balance",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker",
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Body Guard",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Body Guard (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Calming Aura",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Calming Aura (Improved)",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Center of Being",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Niman Disciple",
+            "Protector",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Center of Being (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Circle of Shelter",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Codebreaker",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Command",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Commanding Presence",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Comprehend Technology",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Conditioned",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Shien Expert",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Confidence",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Peacekeeper",
+            "Sage",
+            "Soresu Defender",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Contingency Plan",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Counterstrike",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Crippling Blow",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dedication",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Artisan",
+            "Ataru Striker",
+            "Healer",
+            "Hunter",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Pathfinder",
+            "Peacekeeper",
+            "Protector",
+            "Shadow",
+            "Shien Expert",
+            "Shii-Cho Knight",
+            "Soresu Defender",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Circle",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Slicing",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Stance",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Shien Expert",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Disruptive Strike",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Djem So Deflection",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dodge",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Seer",
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Draw Closer",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Duelist's Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Durable",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Enduring",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Enhanced Leader",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Exhaust Port",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Expert Tracker",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Seer",
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Falling Avalance",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Fearsome",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Feint",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Field Commander",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Field Commander (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Fine Tuning",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Forager",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Assault",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Protection",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Rating",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Artisan",
+            "Healer",
+            "Hunter",
+            "Niman Disciple",
+            "Pathfinder",
+            "Peacekeeper",
+            "Protector",
+            "Sage",
+            "Seer",
+            "Shadow",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Forwarning",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Full Throttle",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Galaxy Mapper",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Grit",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Artisan",
+            "Healer",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Pathfinder",
+            "Protector",
+            "Sage",
+            "Seer",
+            "Shadow",
+            "Shien Expert",
+            "Shii-Cho Knight",
+            "Soresu Defendor",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hawk Bat Swoop",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Healing Trance",
+        "activation": "Active (Action)",
+        "ranked": true,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Healing Trance (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Heightened Awareness",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Heroic Fortitude",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hunter",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Imbue Item",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Indistinguishable",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intense Presence",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intimidating",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Evasion",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Improvementss",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Shot",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Strike",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Inventor",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Jump Up",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Keen Eyed",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter",
+            "Pathfinder",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Kill with Kindness",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Know Somebody",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledge is Power",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledge Specialization",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledgeable Healing",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Finish",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Flourish",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Artisan",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master of Shadows",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Bond",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Fortress",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Artisan",
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Tools",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Multiple Opponents",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Blademaster",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Charmer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Doctor",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natual Hunter",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Leader",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Mystic",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Negotiator",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Outdoorsman",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Tinkerer",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Niman Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Nobody's Fool",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Now You See Me",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "One with the Universe",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Outdoorsman",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Parry",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert",
+            "Shii-Cho Knight",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Parry (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert",
+            "Shii-Cho Knight",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Parry (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Physician",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Healer",
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Plausible Deniability",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Preemptive Avoidance",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Sage",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Prey on the Weak",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Draw",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Movement",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Strike",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Rapid Reaction",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Seer",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Rapid Recovery",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Healer",
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Researcher",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Resist Disarm",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Saber Swarm",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Saber Throw",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sarlaac Sweep",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Second Wind",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Peacekeeper",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sense Advantage",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sense Danger",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sense Emotions",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Advisor",
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Share Pain",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Shien Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Shroud",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Side Step",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Hunter",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sixth Sense",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Skilled Jockey",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sleight of Mind",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Pathfinder",
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Slippery Minded",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Smooth Talker",
+        "activation": "Active (Incidental)",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Soft Spot",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Solid Repairs",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Artisan",
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Soresu Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Steely Nerves",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Advisor",
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stimpack Specialization",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Strategic Form",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Street Smarts",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Shadow",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sum Djem",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Surgeon",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Swift",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Technical Aptitude",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Terrify",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Terrify (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "The Force is My Ally",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sage",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Touch of Fate",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Toughened",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Healer",
+            "Hunter",
+            "Niman Disciple",
+            "Pathfinder",
+            "Peacekeeper",
+            "Protector",
+            "Seer",
+            "Shien Expert",
+            "Shii-Cho Knight",
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Tricky Target",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Uncanny Reactions",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Uncanny Senses",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Unity Assault",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Valuable Facts",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Well Rounded",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    }
+]
