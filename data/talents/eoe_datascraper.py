@@ -11,7 +11,8 @@ all_h4s = soup.select("h4")
 talent_titles = all_h4s[4:]
 
 list_blocks = soup.select("h4 ~ div ul")
-talent_blocks = list(filter(lambda talent: "Activation: " in talent.text, list_blocks[3:]))
+talent_blocks = list(
+    filter(lambda talent: "Activation: " in talent.text, list_blocks[3:]))
 print(len(talent_titles), len(talent_blocks))
 
 parsed_talents = []
@@ -26,7 +27,6 @@ for i, talent in enumerate(talent_titles):
         # "activation": activation,
     }
 
-
     info = talent_blocks[i]
     for i, child in enumerate(info.children):
         if "Activation: " in child.text:
@@ -37,7 +37,9 @@ for i, talent in enumerate(talent_titles):
             new_talent["ranked"] = True if ranked == "Yes" else False
         elif "Trees: " in child.text:
             trees = child.text.split("Trees: ")[1]
-            new_talent["trees"] = trees.split(', ')
+            if trees == "(all)":
+                trees = "Assassin, Bodyguard, Doctor, Force Sensitive Exile, Fringer, Gadgeteer, Marauder, Mechanic, Outlaw Tech, Pilot, Politico, Scholar, Scoundrel, Scout, Slicer, Mercenary Soldier, Survivalist, Thief, Trader"
+            new_talent["trees"] = trees.split(',').strip()
         elif i == 7:
             new_talent["description"] = child.text.strip()
 

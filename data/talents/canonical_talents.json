@@ -1,7 +1,6 @@
 [
     {
         "name": "All-Terrain Driver",
-        "i": 1,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -12,49 +11,48 @@
     },
     {
         "name": "Anatomy Lessons",
-        "i": 2,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Doctor",
             "Assassin",
-            "Doctor"
+            "Medic"
         ],
         "description": "After a successful attack with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Intellect to one hit of the attack."
     },
     {
         "name": "Armor Master",
-        "i": 3,
         "activation": "Passive",
         "ranked": false,
         "trees": [
             "Gadgeteer",
+            "Commando",
             "Heavy"
         ],
         "description": "When wearing armor, the character increases their total soak value by one."
     },
     {
         "name": "Armor Master (Improved)",
-        "i": 4,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Gadgeteer"
+            "Gadgeteer",
+            "Commando"
         ],
         "description": "When wearing armor with a soak value of two or higher, the character increases their defense by one."
     },
     {
         "name": "Bacta Specialist",
-        "i": 5,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic"
         ],
         "description": "Patients under the character's supervision heal one additional wound per rank of Bacta Specialist each time they recover a wound while recovering in a Bacta tank or under supervised medical conditions or long-term care."
     },
     {
         "name": "Bad Cop",
-        "i": 6,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -64,7 +62,6 @@
     },
     {
         "name": "Bad Motivator",
-        "i": 7,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -74,17 +71,18 @@
     },
     {
         "name": "Balance",
-        "i": 8,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Sage",
+            "Ataru Striker",
+            "Force-Sensitive Emergent"
         ],
         "description": "When the character recovers from Strain at the end of each encounter, they may roll their Force rating in Force dice. They regain additional strain equal to the #f rolled."
     },
     {
         "name": "Barrage",
-        "i": 9,
         "activation": "Pass",
         "ranked": true,
         "trees": [
@@ -95,7 +93,6 @@
     },
     {
         "name": "Biggest Fan",
-        "i": 10,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -105,43 +102,43 @@
     },
     {
         "name": "Black Market Contacts",
-        "i": 11,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
-            "Scoundrel",
-            "Thief",
             "Trader",
-            "Enforcer"
+            "Thief",
+            "Enforcer",
+            "Scoundrel"
         ],
         "description": "When looking to purchase illegal, exotic, or black market goods, the character may decrease an item's rarity by one level per rank in Black Market Contacts. For each level an item's rarity is decreased, its cost increases by 50% of its base cost."
     },
     {
         "name": "Blooded",
-        "i": 12,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Survivalist"
+            "Survivalist",
+            "Commando"
         ],
         "description": "Add 1b per rank of Blooded to all checks to resist or recover from the effects of poisons, venoms, and other toxins. Reduce the duration of any related ongoing effects or damage from toxins, venoms, or poisons by one round per rank of Blooded to a minimum of one."
     },
     {
         "name": "Body Guard",
-        "i": 13,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
-            "Bodyguard"
+            "Bodyguard",
+            "Tactician",
+            "Protector"
         ],
         "description": "Once per round on the character's turn, the character may perform a Body Guard maneuver to protect one ally they are engaged with. They then suffer a number of strain no greater than their ranks in Body Guard. Until the start of the character's next turn, upgrade the difficulty of all combat checks targeting the protected ally a number of times equal to the strain suffered by the character."
     },
     {
         "name": "Bought Info",
-        "i": 14,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
+            "Quartermaster",
             "Skip Tracer",
             "Entrepreneur"
         ],
@@ -149,31 +146,31 @@
     },
     {
         "name": "Brace",
-        "i": 15,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
-            "Bodyguard",
             "Gadgeteer",
             "Outlaw Tech",
+            "Bodyguard",
+            "Gunner",
             "Scholar",
-            "Heavy"
+            "Heavy",
+            "Sharpshooter"
         ],
         "description": "As a maneuver, the character may Brace themself. This allows a character to remove 1s per rank of Brace from the next skill check based on changing conditions, inclement weather, unstable surfaces, zero gravity, heavy gravity, or other disruptive physical obstacles that would make a skill check more difficult."
     },
     {
         "name": "Brilliant Evasion",
-        "i": 16,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
+            "Squadron Leader",
             "Pilot"
         ],
         "description": "The character may make the Brilliant Evasion action when piloting a vehicle or starship. The character selects one opponent and makes an Opposed Piloting (Planetary or Space) check. If they succeed, the opponent's vehicle or starship cannot make any attacks against the character's vehicle for a number of rounds equal to the character's Agility. Brilliant Evasion can only be performed once per encounter."
     },
     {
         "name": "Bring it Down",
-        "i": 17,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -183,7 +180,6 @@
     },
     {
         "name": "Burly",
-        "i": 18,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -193,19 +189,17 @@
     },
     {
         "name": "Bypass Security",
-        "i": 19,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Slicer",
             "Thief",
-            "Skip Tracer"
+            "Skip Tracer",
+            "Slicer"
         ],
         "description": "Remove #s equal to the character's ranks in Bypass Security from Skulduggery or Computers skill checks made to disable a security device or open a locked door."
     },
     {
         "name": "Call 'Em",
-        "i": 20,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -215,51 +209,58 @@
     },
     {
         "name": "Clever Solution",
-        "i": 21,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Infiltrator",
             "Gambler"
         ],
         "description": "Once per game session, the character can choose to make one skill check using Cunning rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their wiliness helps overcome this challenge."
     },
     {
         "name": "Codebreaker",
-        "i": 22,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Scholar",
-            "Slicer"
+            "Shadow",
+            "Slicer",
+            "Scholar"
         ],
         "description": "The character removes #s from any attempt to break codes or decrypt communications equal to their ranks in Codebreaker. In addition, the character decreases the difficulty of Computers or Intellect checks made to break codes or decrypt communications by one. This does not increase with additional ranks of Codebreaker."
     },
     {
         "name": "Command",
-        "i": 23,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Mercenary Soldier"
+            "Squadron Leader",
+            "Commodore",
+            "Mercenary Soldier",
+            "Peacekeeper"
         ],
         "description": "Gain 1b when making Leadership checks (or other checks to inspire, lead, or rally an audience) per rank of Command. Inspired targets also add 1b per rank to any subsequent Discipline checks they make over the next twenty-four hours. This does not increase with additional ranks of Command."
     },
     {
         "name": "Confidence",
-        "i": 24,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Scholar",
+            "Gunslinger",
+            "Ambassador",
+            "Soresu Defender",
+            "Starfighter Ace",
+            "Sage",
+            "Squadron Leader",
             "Mercenary Soldier",
             "Big-Game Hunter",
-            "Gunslinger"
+            "Peacekeeper",
+            "Tactician",
+            "Scholar"
         ],
         "description": "The character may decrease the difficulty of any Discipline check to avoid the effects of fear by one level per rank of Confidence. If they decrease the difficulty to zero, they do not have to make a Discipline check."
     },
     {
         "name": "Congenial",
-        "i": 25,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": true,
         "trees": [
@@ -270,7 +271,6 @@
     },
     {
         "name": "Contraption",
-        "i": 26,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -280,43 +280,42 @@
     },
     {
         "name": "Convincing Demeanor",
-        "i": 27,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Force Sensitive Exile",
-            "Scoundrel",
             "Trader",
+            "Agitator",
+            "Gambler",
+            "Force Sensitive Exile",
             "Performer",
-            "Gambler"
+            "Scoundrel"
         ],
         "description": "Remove 1s per rank of Convincing Demeanor from any Deception or Skulduggery check."
     },
     {
         "name": "Coordination Dodge",
-        "i": 28,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
-            "Martial Artist",
+            "Gunslinger",
             "Performer",
-            "Gunslinger"
+            "Martial Artist"
         ],
         "description": "When targeted by a combat check, the character may spend one Destiny Point to add failure equal to their ranks in Coordination to the check."
     },
     {
         "name": "Crippling Blow",
-        "i": 29,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Gadgeteer"
+            "Gadgeteer",
+            "Sharpshooter",
+            "Aggressor"
         ],
         "description": "The character may voluntarily increase the difficulty of a combat check by one to deal a crippling blow. If they succeed and deal damage to the target's wound threshold, the target suffers one strain whenever they move for the remainder of the encounter."
     },
     {
         "name": "Custom Loadout",
-        "i": 30,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -326,7 +325,6 @@
     },
     {
         "name": "Cyberneticist",
-        "i": 31,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -336,7 +334,6 @@
     },
     {
         "name": "Dead to Rights",
-        "i": 32,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -346,7 +343,6 @@
     },
     {
         "name": "Dead to Rights (Improved)",
-        "i": 33,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -356,30 +352,29 @@
     },
     {
         "name": "Deadly Accuracy",
-        "i": 34,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Assassin",
             "Gadgeteer",
+            "Assassin",
+            "Gunslinger",
             "Mercenary Soldier",
-            "Gunslinger"
+            "Sharpshooter"
         ],
         "description": "Each time the character gains a rank of Deadly Accuracy, they must choose one combat skill. The character may add their basic training ranks in that combat skill as additional damage to one hit of a successful attack made with that skill with non-starship/vehicle weapons. They cannot choose the same combat skill twice."
     },
     {
         "name": "Debilitating Shot",
-        "i": 35,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Operator"
+            "Operator",
+            "Gunner"
         ],
         "description": "Upon making a successful attack with a starship or vehicle weapon, may spend advantage to reduce the maximum speed of the target by 1 (to a minimum of 1) until the end of the next round. If the starship or vehicle was traveling its maximum speed, it has its current speed reduced to the new maximum."
     },
     {
         "name": "Deceptive Taunt",
-        "i": 36,
         "activation": "Active",
         "ranked": false,
         "trees": [
@@ -389,56 +384,87 @@
     },
     {
         "name": "Dedication",
-        "i": 37,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Assassin",
             "Bodyguard",
-            "Doctor",
-            "Force Sensitive Exile",
-            "Fringer",
-            "Gadgeteer",
-            "Marauder",
-            "Mechanic",
-            "Outlaw Tech",
+            "Saboteur",
             "Pilot",
-            "Politico",
-            "Scholar",
-            "Scoundrel",
+            "Scientist",
+            "Fringer",
+            "Driver",
+            "Squadron Leader",
+            "Advisor",
+            "Marauder",
+            "Gadgeteer",
+            "Trader",
+            "Agitator",
+            "Shii-Cho Knight",
             "Scout",
-            "Slicer",
-            "Mercenary Soldier",
+            "Commodore",
+            "Medic",
+            "Tactician",
+            "Quartermaster",
+            "Scholar",
+            "Niman Disciple",
+            "Healer",
+            "Pathfinder",
+            "Infiltrator",
+            "Scoundrel",
+            "Protector",
             "Survivalist",
+            "Mechanic",
+            "Ambassador",
+            "Soresu Defender",
             "Thief",
-            "Trader"
+            "Starfighter Ace",
+            "Gunner",
+            "Aggressor",
+            "Force Sensitive Exile",
+            "Mercenary Soldier",
+            "Shadow",
+            "Slicer",
+            "Commando",
+            "Shien Expert",
+            "Force-Sensitive Emergent",
+            "Politico",
+            "Hunter",
+            "Peacekeeper",
+            "Ataru Striker",
+            "Outlaw Tech",
+            "Artisan",
+            "Makashi Duelist",
+            "Recruit",
+            "Doctor",
+            "Sharpshooter"
         ],
         "description": "Each rank permanently increases a single characteristic of the player's choice by one point. This cannot bring a characteristic above six."
     },
     {
         "name": "Defensive Driving",
-        "i": 38,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Fringer",
-            "Pilot"
+            "Pilot",
+            "Squadron Leader",
+            "Driver",
+            "Fringer"
         ],
         "description": "Any vehicle the character pilots has its defense rating on all zones increased by one per rank of Defensive Driving."
     },
     {
         "name": "Defensive Slicing",
-        "i": 39,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Artisan",
             "Slicer"
         ],
         "description": "When attempting to defend a computer system against intrusion (or when an opponent attempts to slice a computer owned or programmed by the character), the character adds #s equal to their rank of Defensive Slicing to their opponent's checks."
     },
     {
         "name": "Defensive Slicing (Improved)",
-        "i": 40,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -448,21 +474,22 @@
     },
     {
         "name": "Defensive Stance",
-        "i": 41,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
-            "Bodyguard",
             "Gadgeteer",
-            "Marauder",
             "Outlaw Tech",
-            "Enforcer"
+            "Soresu Defender",
+            "Bodyguard",
+            "Enforcer",
+            "Marauder",
+            "Infiltrator",
+            "Shien Expert"
         ],
         "description": "One per round on the character's turn, the character may perform a Defensive Stance maneuver to assume a defensive stance against incoming melee attacks. They then suffer a number of strain no greater than their ranks in Defensive Stance. Until the start of the character's next turn, upgrade the difficulty of all melee combat checks targeting the character a number of times equal to the strain suffered by the character in this way."
     },
     {
         "name": "Deft Maker",
-        "i": 42,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -472,7 +499,6 @@
     },
     {
         "name": "Disarming Smile",
-        "i": 43,
         "activation": "Active (Action)",
         "ranked": true,
         "trees": [
@@ -482,20 +508,19 @@
     },
     {
         "name": "Disorient",
-        "i": 44,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
-            "Bodyguard",
             "Gadgeteer",
-            "Marauder",
-            "Outlaw Tech"
+            "Bodyguard",
+            "Scout",
+            "Outlaw Tech",
+            "Marauder"
         ],
         "description": "After hitting with a combat check, the character may spend Advantage to Disorient their foe. Disoriented targets add 1s to all skill checks. The Target is Disoriented for a number of rounds equal to the attacker's ranks in Disorient."
     },
     {
         "name": "Distracting Behavior",
-        "i": 45,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
@@ -505,7 +530,6 @@
     },
     {
         "name": "Distracting Behavior (Improved)",
-        "i": 46,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -515,22 +539,26 @@
     },
     {
         "name": "Dodge",
-        "i": 47,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Doctor",
-            "Fringer",
             "Politico",
+            "Medic",
+            "Ambassador",
+            "Ataru Striker",
             "Thief",
+            "Infiltrator",
+            "Seer",
+            "Fringer",
+            "Doctor",
+            "Shadow",
             "Performer"
         ],
         "description": "When targeted by a combat check (ranged or melee), the character may choose to immediately perform a Dodge incidental to suffer a number of strain, then upgrade the difficulty of the combat check by that number. The number of strain suffered cannot exceed their ranks in Dodge."
     },
     {
         "name": "Don't Shoot!",
-        "i": 48,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -540,7 +568,6 @@
     },
     {
         "name": "Double or Nothing",
-        "i": 49,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -550,7 +577,6 @@
     },
     {
         "name": "Double or Nothing (Improved)",
-        "i": 50,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -560,7 +586,6 @@
     },
     {
         "name": "Double or Nothing (Supreme)",
-        "i": 51,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -570,38 +595,41 @@
     },
     {
         "name": "Durable",
-        "i": 52,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Bodyguard",
-            "Fringer",
-            "Marshal",
             "Archaeologist",
-            "Enforcer",
+            "Bodyguard",
             "Heavy",
-            "Cyber Tech"
+            "Cyber Tech",
+            "Shii-Cho Knight",
+            "Gunner",
+            "Marshal",
+            "Fringer",
+            "Enforcer",
+            "Commando"
         ],
         "description": "The character may reduce a Critical Injury result they suffer by 10 per rank of Durable, to a minimum of one."
     },
     {
         "name": "Enduring",
-        "i": 53,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Bodyguard",
-            "Marauder",
-            "Mechanic",
-            "Survivalist",
             "Archaeologist",
-            "Demolitionist"
+            "Survivalist",
+            "Bodyguard",
+            "Demolitionist",
+            "Mechanic",
+            "Gunner",
+            "Recruit",
+            "Pathfinder",
+            "Marauder"
         ],
         "description": "Character gains +1 soak value per rank of Enduring."
     },
     {
         "name": "Energy Transfer",
-        "i": 54,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
@@ -611,7 +639,6 @@
     },
     {
         "name": "Engineered Redundancies",
-        "i": 55,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -621,19 +648,20 @@
     },
     {
         "name": "Expert Tracker",
-        "i": 56,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Survivalist",
+            "Hunter",
+            "Seer",
+            "Big-Game Hunter",
             "Skip Tracer",
-            "Big-Game Hunter"
+            "Sharpshooter"
         ],
         "description": "Remove 1s per rank of Expert Tracker from checks to find or follow tracks. Survival checks made to track targets take 50% less time than normal. This does not decrease with additional ranks of Expert Tracker."
     },
     {
         "name": "Eye For Detail",
-        "i": 57,
         "activation": "Active (Incidental]",
         "ranked": true,
         "trees": [
@@ -644,17 +672,16 @@
     },
     {
         "name": "Familiar Suns",
-        "i": 58,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
+            "Commodore",
             "Scout"
         ],
         "description": "Once per game session, the character may spend a maneuver to make a Hard (3d) Knowledge (Outer Rim) or Knowledge (Core Worlds) check. If successful, the character is familiar with the type of planetary environment they find themself in. They know whether the planet is likely to be inhabited and, if so, where habitation could be found. They also know about unusual environmental effects, hostile predators, or sources of potential profit."
     },
     {
         "name": "Fancy Paint Job",
-        "i": 59,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -664,80 +691,99 @@
     },
     {
         "name": "Fearsome",
-        "i": 60,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Enforcer"
+            "Enforcer",
+            "Aggressor"
         ],
         "description": "When an adversary becomes engaged with the character, the character may force the adversary to make a fear check, with the difficulty equal to the character's ranks in Fearsome. At the GM's discretion, some adversaries may be immune to this talent based on the type of adversary or the ongoing circumstances."
     },
     {
         "name": "Feral Strength",
-        "i": 61,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Marauder"
+            "Marauder",
+            "Commander"
         ],
         "description": "The character deals +1 damage to one hit on all successful Brawl and Melee checks per rank of Feral Strength."
     },
     {
         "name": "Field Commander",
-        "i": 62,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
-            "Mercenary Soldier"
+            "Squadron Leader",
+            "Mercenary Soldier",
+            "Peacekeeper",
+            "Tactician"
         ],
         "description": "The character may take a Field Commander action. By successfully passing an Average (2d) Leadership check, a number of allies equal to their Presence may immediately suffer one strain to perform one maneuver. This does not count against the number of maneuvers they may perform in their turn. If there are any questions as to the order in which allies act, the character using Field Commander is the final arbitrator."
     },
     {
         "name": "Field Commander (Improved)",
-        "i": 63,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Mercenary Soldier"
+            "Squadron Leader",
+            "Mercenary Soldier",
+            "Peacekeeper",
+            "Tactician"
         ],
         "description": "When taking a Field Commander action, the character may affect allies equal to twice their Presence. In addition, they may spend Triumph generated on their Leadership checks to allow one ally to suffer one strain to perform an action, rather than a maneuver."
     },
     {
         "name": "Fine Tuning",
-        "i": 64,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Mechanic"
+            "Artisan",
+            "Mechanic",
+            "Driver"
         ],
         "description": "Whenever the character reduces the amount of strain a starship or vehicle suffers, they reduce one additional strain per rank of Fine Tuning."
     },
     {
         "name": "Forager",
-        "i": 65,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile",
-            "Scout",
             "Survivalist",
+            "Scout",
+            "Seer",
+            "Force Sensitive Exile",
+            "Medic",
+            "Pathfinder",
             "Big-Game Hunter"
         ],
         "description": "Remove up to 2s from skill checks to find food, water, or shelter. Survival checks to forage take half the time."
     },
     {
         "name": "Force Rating",
-        "i": 66,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Force Sensitive Exile"
+            "Hunter",
+            "Peacekeeper",
+            "Artisan",
+            "Starfighter Ace",
+            "Sage",
+            "Aggressor",
+            "Advisor",
+            "Niman Disciple",
+            "Force Sensitive Exile",
+            "Seer",
+            "Pathfinder",
+            "Shadow",
+            "Protector",
+            "Healer",
+            "Force-Sensitive Emergent"
         ],
         "description": "Each rank permanently increases Force rating by one."
     },
     {
         "name": "Fortune Favors the Bold",
-        "i": 67,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -747,81 +793,82 @@
     },
     {
         "name": "Frenzied Attack",
-        "i": 68,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
-            "Marauder"
+            "Marauder",
+            "Infiltrator"
         ],
         "description": "When making a Melee or Brawl combat check, the character may suffer a number of strain, then upgrade the ability of their combat check by that number. The number cannot exceed their ranks in Frenzied Attack."
     },
     {
         "name": "Full Stop",
-        "i": 69,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
+            "Squadron Leader",
             "Driver"
         ],
         "description": "When piloting a ship or vehicle, the character may take the full-stop maneuver to immediately reduce the speed of the vehicle to zero. The ship or vehicle then suffers one point of system strain for every point of speed it had before stopping"
     },
     {
         "name": "Full Throttle",
-        "i": 70,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
-            "Pilot",
-            "Operator"
+            "Driver",
+            "Operator",
+            "Starfighter Ace",
+            "Pilot"
         ],
         "description": "The character may push a ship or vehicle past its limits of speed. They may perform the Full Throttle action, attempting a Hard (3d) Piloting check. With success, the ship's top speed increases by one for a number of rounds equal to Cunning.The ship still cannot perform actions or maneuvers it could not perform normally (i.e. actions that have a minimum speed requirement)."
     },
     {
         "name": "Full Throttle (Improved)",
-        "i": 71,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
+            "Driver",
             "Pilot"
         ],
         "description": "The character may voluntarily suffer one strain to attempt Full Throttle as a maneuver. In addition, the difficulty of Full Throttle is reduced to Average (2d)"
     },
     {
         "name": "Full Throttle (Supreme)",
-        "i": 72,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Driver",
             "Pilot"
         ],
         "description": "When the character successfully performs Full Throttle, the ship's top speed increases by two for a number of rounds equal to their Cunning, instead of one."
     },
     {
         "name": "Galaxy Mapper",
-        "i": 73,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Fringer",
+            "Commodore",
             "Pilot",
-            "Operator"
+            "Operator",
+            "Starfighter Ace",
+            "Fringer"
         ],
         "description": "Remove 1s per rank of Galaxy Mapper from all Astrogation checks. In addition, Astrogation checks take 50% less time. This does not increase with multiple ranks of Galaxy Mapper."
     },
     {
         "name": "Gearhead",
-        "i": 74,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Mechanic",
-            "Modder"
+            "Modder",
+            "Driver"
         ],
         "description": "Remove 1s per rank of Gearhead from all Mechanics checks. - In addition, the credit cost to add mods to attachments decreases by 50%. This does not increase with multiple ranks of Gearhead."
     },
     {
         "name": "Good Cop",
-        "i": 75,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -832,7 +879,6 @@
     },
     {
         "name": "Guns Blazing",
-        "i": 76,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -842,7 +888,6 @@
     },
     {
         "name": "Grapple",
-        "i": 77,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
@@ -852,54 +897,83 @@
     },
     {
         "name": "Greased Palms",
-        "i": 78,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
+            "Quartermaster",
             "Entrepreneur"
         ],
         "description": "Before making a Social Interaction check, the character may perform a Greased Palms maneuver and spend up to 50 credits per rank of Greased Palms. For every 50 credits spent, the character upgrades the ability of the skill check once. How the money accomplishes this can be up to the player and GM, but could take the form of bribes, buying gifts, or even purchasing information that gives the character an advantage in the interaction."
     },
     {
         "name": "Grit",
-        "i": 79,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Bodyguard",
-            "Doctor",
-            "Fringer",
-            "Mechanic",
-            "Outlaw Tech",
-            "Pilot",
-            "Politico",
-            "Scout",
-            "Slicer",
-            "Mercenary Soldier",
-            "Scholar",
-            "Survivalist",
-            "Thief",
-            "Trader",
-            "Martial Artist",
-            "Operator",
-            "Entrepreneur",
-            "Marshal",
-            "Performer",
             "Archaeologist",
-            "Big-Game Hunter",
-            "Demolitionist",
-            "Heavy",
-            "Charmer",
-            "Gambler",
+            "Bodyguard",
+            "Saboteur",
+            "Pilot",
+            "Operator",
+            "Scientist",
+            "Fringer",
+            "Driver",
+            "Squadron Leader",
+            "Advisor",
+            "Performer",
+            "Trader",
+            "Agitator",
+            "Shii-Cho Knight",
+            "Scout",
+            "Commodore",
+            "Medic",
+            "Martial Artist",
+            "Tactician",
+            "Quartermaster",
+            "Marshal",
+            "Scholar",
+            "Niman Disciple",
+            "Healer",
+            "Pathfinder",
+            "Infiltrator",
+            "Protector",
             "Gunslinger",
-            "Droid Tech"
+            "Survivalist",
+            "Gambler",
+            "Demolitionist",
+            "Mechanic",
+            "Soresu Defendor",
+            "Ambassador",
+            "Thief",
+            "Recruit",
+            "Gunner",
+            "Aggressor",
+            "Sage",
+            "Heavy",
+            "Seer",
+            "Starfighter Ace",
+            "Mercenary Soldier",
+            "Shadow",
+            "Big-Game Hunter",
+            "Slicer",
+            "Commando",
+            "Force-Sensitive Emergent",
+            "Shien Expert",
+            "Politico",
+            "Outlaw Tech",
+            "Artisan",
+            "Makashi Duelist",
+            "Entrepreneur",
+            "Droid Tech",
+            "Doctor",
+            "Sharpshooter",
+            "Charmer"
         ],
         "description": "Each rank of Grit increases a character's strain threshold by one."
     },
     {
         "name": "Hard-Boiled",
-        "i": 80,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -909,32 +983,31 @@
     },
     {
         "name": "Hard Headed",
-        "i": 81,
         "activation": "Active (Action)",
         "ranked": true,
         "trees": [
+            "Archaeologist",
             "Bodyguard",
+            "Saboteur",
             "Mechanic",
-            "Marshal",
-            "Archaeologist"
+            "Marshal"
         ],
         "description": "The character may perform the Hard Headed action. On any turn in which the character is Staggered or Disoriented, they may perform the Hard Headed action (this action may be specifically performed even though they are normally barred from performing actions when staggered). They make a Daunting (4d) Discipline check. If they succeed, they are no longer staggered or disoriented. The difficulty of this check decreases by one per additional rank of Hard Headed, to a minimum of Easy (1d)."
     },
     {
         "name": "Hard Headed (Improved)",
-        "i": 82,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
-            "Bodyguard",
             "Mechanic",
-            "Marshal"
+            "Bodyguard",
+            "Marshal",
+            "Saboteur"
         ],
         "description": "The character may use their Hard Headed action to recover from being incapacitated due to exceeding their strain threshold. On their next turn after being incapacitated, they may make a Formidable (5d) Discipline check as their Hard Headed action (this action can specifically be performed even though they are normally barred from performing actions). If they succeed, they decrease their strain to one below their strain threshold. The difficulty of this check decreases by one per rank of Hard Headed, to a minimum of Easy (1d)."
     },
     {
         "name": "Heavy Hitter",
-        "i": 83,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -944,30 +1017,31 @@
     },
     {
         "name": "Heightened Awareness",
-        "i": 84,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Big-Game Hunter",
             "Scout",
-            "Big-Game Hunter"
+            "Protector"
         ],
         "description": "Allies within close range of the character add 1b to their Perception and Vigilance checks. Allies engaged with them add 2b instead."
     },
     {
         "name": "Heroic Fortitude",
-        "i": 85,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Marauder",
             "Survivalist",
-            "Heavy"
+            "Gunner",
+            "Aggressor",
+            "Heavy",
+            "Marauder",
+            "Commando"
         ],
         "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Brawn or Agility related checks until the end of the encounter. They still suffer from the injury itself."
     },
     {
         "name": "Heroic Resilience",
-        "i": 86,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -977,20 +1051,19 @@
     },
     {
         "name": "Hidden Storage",
-        "i": 87,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Scoundrel",
             "Thief",
+            "Modder",
             "Droid Tech",
-            "Modder"
+            "Scientist",
+            "Scoundrel"
         ],
         "description": "Any large equipment, vehicle, or droid that the character owns has one or more hidden compartments for smuggling appropriately sized gear. The number of compartments is up to the player, but cannot be enough to hold a total encumbrance value of items more than the character's ranks in Hidden Storage. The size of the compartments are proportional to the size of the vehicle or droid in question. Most humanoid droids can only hold items equivalent in size to a one-handed weapon, whereas a silhouette 4 starship could conceal humanoids within its compartments. Any checks to detect these compartments have a Formidable (5d) difficulty."
     },
     {
         "name": "Hindering Shot",
-        "i": 88,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1000,27 +1073,26 @@
     },
     {
         "name": "Hold Together",
-        "i": 89,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
-            "Mechanic"
+            "Mechanic",
+            "Commodore"
         ],
         "description": "The character may spend one Destiny Point to make a Hold Together incidental immediately after a vehicle or starship they have repaired this encounter takes damage. The character explains why the apparently serious damage was in fact superficial, and the damage from the attack becomes system strain instead."
     },
     {
         "name": "Hunter",
-        "i": 90,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Hunter",
             "Survivalist"
         ],
         "description": "The character adds 1b per rank of Hunter to all skill checks when interacting with wild beasts and animals, including combat checks. Add +10 per rank to all Critical Injury rolls against animals per rank of Hunter."
     },
     {
         "name": "Hunter's Quarry",
-        "i": 91,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1030,7 +1102,6 @@
     },
     {
         "name": "Hunter's Quarry (Improved)",
-        "i": 92,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1040,7 +1111,6 @@
     },
     {
         "name": "Improvised Detonation",
-        "i": 93,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1050,7 +1120,6 @@
     },
     {
         "name": "Improvised Detonation (Improved)",
-        "i": 94,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1060,17 +1129,18 @@
     },
     {
         "name": "Indistinguishable",
-        "i": 95,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Thief"
+            "Thief",
+            "Ambassador",
+            "Shadow",
+            "Force-Sensitive Emergent"
         ],
         "description": "The character's appearance is so common that people have a hard time identifying distinguishing traits. Opposing characters upgrade the difficulty of any checks made to identify them once per rank of Indistinguishable."
     },
     {
         "name": "Informant",
-        "i": 96,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1080,20 +1150,20 @@
     },
     {
         "name": "Insight",
-        "i": 97,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Force-Sensitive Emergent"
         ],
         "description": "Perception and Discipline become career skills if they are not already."
     },
     {
         "name": "Inspiring Rhetoric",
-        "i": 98,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
+            "Ambassador",
             "Politico",
             "Charmer"
         ],
@@ -1101,10 +1171,10 @@
     },
     {
         "name": "Inspiring Rhetoric (Improved)",
-        "i": 99,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Ambassador",
             "Politico",
             "Charmer"
         ],
@@ -1112,33 +1182,35 @@
     },
     {
         "name": "Inspiring Rhetoric (Supreme)",
-        "i": 100,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Ambassador",
             "Politico"
         ],
         "description": "The character may voluntarily suffer 1 strain to perform Inspiring Rhetoric as a maneuver instead of an action."
     },
     {
         "name": "Intense Focus",
-        "i": 101,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile",
+            "Quartermaster",
             "Scholar",
-            "Entrepreneur"
+            "Entrepreneur",
+            "Scientist",
+            "Force Sensitive Exile"
         ],
         "description": "Before making a skill check, the character may perform the Intense Focus maneuver. The character suffers one strain to upgrade the ability of the skill check once."
     },
     {
         "name": "Intense Presence",
-        "i": 102,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
             "Politico",
+            "Ambassador",
+            "Makashi Duelist",
             "Performer",
             "Charmer"
         ],
@@ -1146,28 +1218,29 @@
     },
     {
         "name": "Intimidating",
-        "i": 103,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": true,
         "trees": [
             "Gadgeteer",
-            "Enforcer"
+            "Agitator",
+            "Enforcer",
+            "Aggressor"
         ],
         "description": "When attempting a Coercion check, the character may suffer a number of strain to downgrade the difficulty of the check a number of times equal to the strain suffered. Also, ahen the character is the target of a Coercion check, the character may suffer a number of strain to upgrade the difficulty of the check a number of times equal to the strain suffered. Neither number may exceed their ranks in Intimidating."
     },
     {
         "name": "Inventor",
-        "i": 104,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Outlaw Tech"
+            "Artisan",
+            "Outlaw Tech",
+            "Scientist"
         ],
         "description": "When constructing new items or modifying existing attachments, the character may choose to add or remove 1s from the check per rank of Inventor."
     },
     {
         "name": "Iron Body",
-        "i": 105,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -1177,32 +1250,33 @@
     },
     {
         "name": "Jump Up",
-        "i": 106,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Assassin",
-            "Fringer",
             "Thief",
+            "Infiltrator",
+            "Fringer",
+            "Ataru Striker",
+            "Recruit",
             "Performer"
         ],
         "description": "Once per round on the character's turn, the character may stand up from prone or a seated position as an Incidental."
     },
     {
         "name": "Jury Rigged",
-        "i": 107,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Gadgeteer",
             "Outlaw Tech",
+            "Gunner",
             "Modder"
         ],
         "description": "The character chooses one personal weapon or piece of armor per rank of Jury Rigged. They may increase the damage of the weapon by one; decrease the Advantage cost on its Critical, or any single other effect by one to a minimum of one; or increase armor's ranged or melee defense by one. Alternatively, they can decrease the encumbrance of the item by two to a minimum of one. The bonus only applies so long as the character is using the item. If the item is ever lost or destroyed, the character may apply Jury Rigged to a new personal weapon or piece or armor."
     },
     {
         "name": "Just Kidding!",
-        "i": 108,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -1212,11 +1286,13 @@
     },
     {
         "name": "Kill with Kindness",
-        "i": 109,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Politico",
+            "Ambassador",
+            "Sage",
+            "Advisor",
             "Performer",
             "Charmer"
         ],
@@ -1224,52 +1300,54 @@
     },
     {
         "name": "Knockdown",
-        "i": 110,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Archaeologist",
+            "Infiltrator",
             "Fringer",
             "Marauder",
-            "Archaeologist"
+            "Commando"
         ],
         "description": "After hitting with a melee attack, the character may knock the target prone by spending a Triumph. If the target is larger than the acting character, it requires one additional for each silhouette larger."
     },
     {
         "name": "Know Somebody",
-        "i": 111,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
             "Trader",
+            "Quartermaster",
+            "Modder",
             "Entrepreneur",
-            "Modder"
+            "Advisor"
         ],
         "description": "Once per game session, when attempting to purchase a legally available item, the character may reduce its rarity by one step per rank of Know Somebody."
     },
     {
         "name": "Knowledge Specialization",
-        "i": 112,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Archaeologist",
+            "Sage",
             "Scholar",
-            "Archaeologist"
+            "Scientist"
         ],
         "description": "When the character first acquires this talent, they may choose one Knowledge skill. When making checks with that skill, they may spend Triumph to gain additional successes equal to their ranks in Knowledge Specialization."
     },
     {
         "name": "Known Schematic",
-        "i": 113,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
-            "Outlaw Tech"
+            "Outlaw Tech",
+            "Commodore"
         ],
         "description": "Once per game session, the character may spend a maneuver to make a Hard (3d) Knowledge (Education) check. Success means the character is familiar with a building or capital ship's design. They now knows the location of critical components or facilities within the ship or vehicle, as well as their own location. They can also plan unconventional routes around obstacles. Additional Success, Advantage, or Triumph results can reveal other useful information at the GM's discretion."
     },
     {
         "name": "Larger Project",
-        "i": 114,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -1279,32 +1357,31 @@
     },
     {
         "name": "Let's Ride",
-        "i": 115,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Pilot",
+            "Squadron Leader",
+            "Operator",
             "Scout",
-            "Operator"
+            "Pilot"
         ],
         "description": "Once per round on the character's turn, the character may mount or dismount from a vehicle or beast, or slide into the cockpit or weapon station aboard a star- ship, as an incidental instead of a maneuver."
     },
     {
         "name": "Lethal Blows",
-        "i": 116,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Marauder",
+            "Gunslinger",
             "Mercenary Soldier",
-            "Gunslinger"
+            "Marauder",
+            "Sharpshooter"
         ],
         "description": "The character adds +10 per rank of Lethal Blows to any Critical Injury rolls inflicted on opponents."
     },
     {
         "name": "Loom",
-        "i": 117,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1314,7 +1391,6 @@
     },
     {
         "name": "Machine Mender",
-        "i": 118,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -1324,17 +1400,16 @@
     },
     {
         "name": "Master Doctor",
-        "i": 119,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic"
         ],
         "description": "Once per round, the character may suffer two strain to decrease the difficulty of their next Medicine check by one to a minimum of Easy (1d)."
     },
     {
         "name": "Master Driver",
-        "i": 120,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1344,39 +1419,39 @@
     },
     {
         "name": "Master Grenadier",
-        "i": 121,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Demolitionist"
+            "Demolitionist",
+            "Saboteur"
         ],
         "description": "The character decreases the Advantage cost to activate the Blast quality on any weapon they use by 1 to a minimum of 1. This includes the cost to activate the Blast quality if the weapon misses."
     },
     {
         "name": "Master Merchant",
-        "i": 122,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Trader",
+            "Quartermaster",
             "Entrepreneur"
         ],
         "description": "Before making a check when buying or selling items, or undertaking or paying off Obligation, the character may choose to suffer two strain. If the check succeeds, they sell the item for 25% more than base cost, buy it for 25% less, pay off an additional one Obligation point, or undertake one less Obligation point."
     },
     {
         "name": "Master of Shadows",
-        "i": 123,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Assassin",
-            "Thief"
+            "Thief",
+            "Infiltrator",
+            "Shadow"
         ],
         "description": "Once per round, the character may voluntarily suffer two strain to decrease the difficulty of the next Stealth or Skulduggery check by one, to a minimum of Easy (1d)."
     },
     {
         "name": "Master Pilot",
-        "i": 124,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1386,7 +1461,6 @@
     },
     {
         "name": "Master Slicer",
-        "i": 125,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1396,28 +1470,29 @@
     },
     {
         "name": "Master Starhopper",
-        "i": 126,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Commodore",
             "Fringer"
         ],
         "description": "Once per round, the character may suffer two strain to decrease the difficulty of their next Astrogation check by one, to a minimum of Easy (1d)."
     },
     {
         "name": "Mental Fortress",
-        "i": 127,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Artisan",
             "Scholar",
+            "Scientist",
+            "Shadow",
             "Slicer"
         ],
         "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Intellect or Cunning related checks until the end of the encounter. They still suffer from the injury itself."
     },
     {
         "name": "Mind Over Matter",
-        "i": 128,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1427,7 +1502,6 @@
     },
     {
         "name": "More Machine than Man",
-        "i": 129,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -1437,7 +1511,6 @@
     },
     {
         "name": "Museum Worthy",
-        "i": 130,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1447,7 +1520,6 @@
     },
     {
         "name": "Natural Athlete",
-        "i": 131,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1457,22 +1529,23 @@
     },
     {
         "name": "Natural Brawler",
-        "i": 132,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Marauder",
+            "Infiltrator",
             "Martial Artist"
         ],
         "description": "Once per game session, the character may reroll any one Brawl or Melee check."
     },
     {
         "name": "Natural Charmer",
-        "i": 133,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Politico",
+            "Ambassador",
+            "Advisor",
             "Scoundrel",
             "Charmer"
         ],
@@ -1480,17 +1553,17 @@
     },
     {
         "name": "Natural Doctor",
-        "i": 134,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic",
+            "Healer"
         ],
         "description": "Once per game session, the character may reroll any one Medicine check."
     },
     {
         "name": "Natural Driver",
-        "i": 135,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1500,32 +1573,31 @@
     },
     {
         "name": "Natural Enforcer",
-        "i": 136,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Gadgeteer",
+            "Agitator",
             "Enforcer"
         ],
         "description": "Once per game session, the character may reroll any one Coercion or Streetwise check."
     },
     {
         "name": "Natural Hunter",
-        "i": 137,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Scout",
-            "Big-Game Hunter"
+            "Big-Game Hunter",
+            "Scout"
         ],
         "description": "Once per game session, the character may reroll any one Perception or Vigilance check."
     },
     {
         "name": "Natural Marksman",
-        "i": 138,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Sharpshooter",
             "Mercenary Soldier",
             "Marshal",
             "Gunslinger"
@@ -1534,7 +1606,6 @@
     },
     {
         "name": "Natural Merchant",
-        "i": 139,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1544,28 +1615,30 @@
     },
     {
         "name": "Natural Negotiator",
-        "i": 140,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Trader",
+            "Sage",
+            "Quartermaster",
             "Gambler"
         ],
         "description": "Once per game session, the character may reroll any one Cool or Negotiation check."
     },
     {
         "name": "Natural Outdoorsman",
-        "i": 141,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Survivalist"
+            "Pathfinder",
+            "Survivalist",
+            "Commando",
+            "Tactician"
         ],
         "description": "Once per game session, the character may reroll any one Resilience or Survival check."
     },
     {
         "name": "Natural Pilot",
-        "i": 142,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1575,7 +1648,6 @@
     },
     {
         "name": "Natural Programmer",
-        "i": 143,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1585,31 +1657,31 @@
     },
     {
         "name": "Natural Rogue",
-        "i": 144,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Thief",
+            "Infiltrator",
             "Gambler"
         ],
         "description": "Once per game session, the character may reroll any one Skulduggery or Stealth check."
     },
     {
         "name": "Natural Scholar",
-        "i": 145,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Scholar"
+            "Scholar",
+            "Scientist"
         ],
         "description": "Once per game session, the character may reroll any one Knowledge skill check."
     },
     {
         "name": "Natural Tinkerer",
-        "i": 146,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Artisan",
             "Mechanic",
             "Modder"
         ],
@@ -1617,19 +1689,21 @@
     },
     {
         "name": "Nobody's Fool",
-        "i": 147,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Politico",
             "Trader",
-            "Skip Tracer"
+            "Agitator",
+            "Politico",
+            "Niman Disciple",
+            "Advisor",
+            "Skip Tracer",
+            "Ambassador"
         ],
         "description": "The difficulty of any Charm, Coercion, or Deception checks attempted against the character are once for each rank of Nobody's Fool."
     },
     {
         "name": "Offensive Driving",
-        "i": 148,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
@@ -1639,18 +1713,19 @@
     },
     {
         "name": "Outdoorsman",
-        "i": 149,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Survivalist",
+            "Tactician",
+            "Recruit",
+            "Pathfinder",
             "Big-Game Hunter"
         ],
         "description": "The character removes 1s per rank of Outdoorsman from checks to move through terrain or manage terrain or environmental effects. Decrease overland travel times by 50%. This does not decrease with multiple ranks of Outdoorsman."
     },
     {
         "name": "Overbalance",
-        "i": 150,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1660,7 +1735,6 @@
     },
     {
         "name": "Overcharge",
-        "i": 151,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1670,7 +1744,6 @@
     },
     {
         "name": "Overcharge (Improved)",
-        "i": 152,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1680,7 +1753,6 @@
     },
     {
         "name": "Overcharge (Supreme)",
-        "i": 153,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1690,17 +1762,16 @@
     },
     {
         "name": "Overwhelm Defenses",
-        "i": 154,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
-            "Operator"
+            "Operator",
+            "Gunner"
         ],
         "description": "Upon making an unsuccessful attack with a starship or vehicle weapon, the character may spend per 2 Advantage rank of Overwhelm Defenses. Reduce the defense rating in the defense zone targeted by the attack for the remainder of the encounter by 1 for every 2 Advantage spent."
     },
     {
         "name": "Overwhelm Emotions",
-        "i": 155,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1710,17 +1781,22 @@
     },
     {
         "name": "Parry",
-        "i": 156,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": true,
         "trees": [
-            "Martial Artist"
+            "Shii-Cho Knight",
+            "Ataru Striker",
+            "Martial Artist",
+            "Soresu Defender",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert"
         ],
         "description": "When the character suffers a hit from a Brawl, Melee, or Lightsaber combat check, after damage is calculated (but before soak is applied), the character may take a Parry incidental. They suffer 3 strain and reduce the damage dealt by that hit by a number equal to 2 plus their ranks in Parry. This talent may only be used once per hit and when the character is wielding a Melee weapon or Lightsaber."
     },
     {
         "name": "Pin",
-        "i": 157,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1730,7 +1806,6 @@
     },
     {
         "name": "Planet Mapper",
-        "i": 158,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -1740,41 +1815,39 @@
     },
     {
         "name": "Plausible Deniabi1ity",
-        "i": 159,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Politico",
-            "Entrepreneur",
-            "Charmer"
+            "Charmer",
+            "Entrepreneur"
         ],
         "description": "Remove 1s per rank of Plausible Deniability from all Coercion and Deception checks the character attempts."
     },
     {
         "name": "Point Blank",
-        "i": 160,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Gadgeteer",
             "Mercenary Soldier",
+            "Commando",
             "Marshal"
         ],
         "description": "The character adds one damage per rank of Point Blank to one hit of successful Ranged (Heavy) or Ranged (Light) attacks made while at short range or engaged."
     },
     {
         "name": "Powerful Blast",
-        "i": 161,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Demolitionist"
+            "Demolitionist",
+            "Saboteur"
         ],
         "description": "The character increases the damage dealt by the Blast quality of explosives, explosive weapons, and grenades they use by +1 per rank of Powerful Blast."
     },
     {
         "name": "Precise Aim",
-        "i": 162,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
@@ -1784,7 +1857,6 @@
     },
     {
         "name": "Precision Strike",
-        "i": 163,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -1794,7 +1866,6 @@
     },
     {
         "name": "Precision Strike (Improved)",
-        "i": 164,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -1804,7 +1875,6 @@
     },
     {
         "name": "Precision Strike (Supreme)",
-        "i": 165,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -1814,7 +1884,6 @@
     },
     {
         "name": "Pressure Point",
-        "i": 166,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -1824,21 +1893,23 @@
     },
     {
         "name": "Quick Draw",
-        "i": 167,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Assassin",
+            "Gunslinger",
             "Force Sensitive Exile",
-            "Scoundrel",
+            "Shii-Cho Knight",
+            "Ataru Striker",
+            "Tactician",
             "Marshal",
-            "Gunslinger"
+            "Recruit",
+            "Scoundrel"
         ],
         "description": "Once per round on the character's turn, they may draw or holster an easily accessible weapon as an incidental, not a maneuver. This talent also reduces the amount of time to draw or stow a weapon that usually requires more than one maneuver to properly prepare or stow, by one maneuver."
     },
     {
         "name": "Quick Draw (Improved)",
-        "i": 168,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -1848,21 +1919,21 @@
     },
     {
         "name": "Quick Strike",
-        "i": 169,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Scoundrel",
+            "Gunslinger",
+            "Ataru Striker",
             "Scout",
-            "Big-Game Hunter",
-            "Gunslinger"
+            "Scoundrel",
+            "Squadron Leader",
+            "Big-Game Hunter"
         ],
         "description": "When performing a combat check during combat, the character adds 1b per rank of Quick Strike to combat checks against any target that has not yet acted in the encounter."
     },
     {
         "name": "Rain of Death",
-        "i": 170,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
@@ -1872,34 +1943,38 @@
     },
     {
         "name": "Rapid Reaction",
-        "i": 171,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": true,
         "trees": [
-            "Scoundrel",
+            "Gunslinger",
             "Thief",
+            "Starfighter Ace",
+            "Seer",
+            "Driver",
             "Demolitionist",
-            "Gunslinger"
+            "Commodore",
+            "Scoundrel"
         ],
         "description": "The character may suffer a number of strain to add an equal number of Success to any Vigilance or Cool check to determine initiative order. The number may not exceed their ranks in Rapid Reaction."
     },
     {
         "name": "Rapid Recovery",
-        "i": 172,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Fringer",
-            "Pilot",
             "Scout",
+            "Entrepreneur",
+            "Saboteur",
+            "Hunter",
             "Skip Tracer",
-            "Entrepreneur"
+            "Healer",
+            "Pilot"
         ],
         "description": "When this character heals strain after an encounter has concluded, they heal one additional strain per rank in Rapid Recovery."
     },
     {
         "name": "Reconstruct the Scene",
-        "i": 173,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1909,7 +1984,6 @@
     },
     {
         "name": "Redundant Systems",
-        "i": 174,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1920,7 +1994,6 @@
     },
     {
         "name": "Reroute Processors",
-        "i": 175,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1930,33 +2003,33 @@
     },
     {
         "name": "Researcher",
-        "i": 176,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Archaeologist",
+            "Sage",
             "Scholar",
-            "Archaeologist"
+            "Scientist"
         ],
         "description": "The character removes 1s per rank of Researcher from all Knowledge checks. Researching takes 50% less time. This does not increase with multiple ranks of researcher."
     },
     {
         "name": "Resolve",
-        "i": 177,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Doctor",
-            "Scholar",
-            "Slicer",
             "Archaeologist",
-            "Charmer",
-            "Modder"
+            "Scholar",
+            "Modder",
+            "Saboteur",
+            "Doctor",
+            "Slicer",
+            "Charmer"
         ],
         "description": "When the character involuntarily suffers strain, they suffer one less strain per rank of Resolve, to a minimum of one. This does not apply to voluntary strain loss."
     },
     {
         "name": "Resourceful Refit",
-        "i": 178,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -1966,18 +2039,17 @@
     },
     {
         "name": "Respected Scholar",
-        "i": 179,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Archaeologist",
             "Scholar",
-            "Archaeologist"
+            "Scientist"
         ],
         "description": "The character downgrades the difficulty of checks to interact with institutions of learning equal to their ranks in Respected Scholar."
     },
     {
         "name": "Second Chances",
-        "i": 180,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
@@ -1987,91 +2059,94 @@
     },
     {
         "name": "Selective Detonation",
-        "i": 181,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
-            "Demolitionist"
+            "Demolitionist",
+            "Saboteur"
         ],
         "description": "When using any weapon with the Blast quality or explosive device, the character may spend Advantage or Triumph to exclude one target that would normally be affected by the explosion. Multiple targets may be excluded in this manner, but the total number may not exceed their ranks in Selective Detonation."
     },
     {
         "name": "Scathing Tirade",
-        "i": 182,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
+            "Agitator",
             "Politico"
         ],
         "description": "The character may take the Scathing Tirade action; making an Average(2d) Coercion check. For each Successs, one enemy within short range suffers one strain. The character can also spend Advantage; for every Advantage spent, one target already affected suffers 1 additional strain."
     },
     {
         "name": "Scathing Tirade (Improved)",
-        "i": 183,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Agitator",
             "Politico"
         ],
         "description": "Each enemy affected by Scathing Tirade suffers 1s on all skill checks for a number of rounds equal to the character's ranks in Coercion; this does not stack with itself."
     },
     {
         "name": "Scathing Tirade (Supreme)",
-        "i": 184,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Agitator",
             "Politico"
         ],
         "description": "The character may voluntarily suffer one strain to perform Scathing Tirade as a maneuver instead of an action."
     },
     {
         "name": "Second Wind",
-        "i": 185,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
+            "Recruit",
+            "Shii-Cho Knight",
+            "Saboteur",
+            "Peacekeeper",
             "Mercenary Soldier",
-            "Performer",
-            "Enforcer"
+            "Enforcer",
+            "Performer"
         ],
         "description": "Once per encounter, the character may use a Second Wind incidental to recover an amount of strain equal to their ranks in Second Wind."
     },
     {
         "name": "Sense Danger",
-        "i": 186,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Seer",
+            "Force-Sensitive Emergent"
         ],
         "description": "Once per game session, the character may remove 2s from any one skill check."
     },
     {
         "name": "Sense Emotions",
-        "i": 187,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Advisor",
+            "Niman Disciple"
         ],
         "description": "The character adds 1b to all Charm, Coercion, and Deception checks unless the target is immune to Force Powers."
     },
     {
         "name": "Shortcut",
-        "i": 188,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Scout",
             "Thief",
+            "Scout",
             "Operator"
         ],
         "description": "During a chase, the character adds #b equal to their ranks in Shortcut to any checks made to catch or escape an opponent."
     },
     {
         "name": "Shortcut (Improved)",
-        "i": 189,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -2081,21 +2156,22 @@
     },
     {
         "name": "Side Step",
-        "i": 190,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
+            "Outlaw Tech",
             "Bodyguard",
+            "Heavy",
+            "Hunter",
             "Mercenary Soldier",
             "Scoundrel",
-            "Outlaw Tech",
-            "Heavy"
+            "Shien Expert",
+            "Tactician"
         ],
         "description": "Once per round on the character's turn, the character may perform a Side Step maneuver to side step and try to avoid incoming ranged attacks. They then suffer a number of strain no greater than their ranks in Side Step. Until the start of the character's next turn, upgrade the difficulty of all ranged combat checks targeting the character a number of times equal to the strain suffered by the character."
     },
     {
         "name": "Signature Vehicle",
-        "i": 191,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2105,29 +2181,30 @@
     },
     {
         "name": "Sixth Sense",
-        "i": 192,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Hunter",
+            "Ambassador"
         ],
         "description": "The character gains +1 ranged defense."
     },
     {
         "name": "Skilled Jockey",
-        "i": 193,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Fringer",
             "Pilot",
-            "Operator"
+            "Operator",
+            "Starfighter Ace",
+            "Fringer",
+            "Driver"
         ],
         "description": "The character removes 1s per rank of Skilled Jockey from all Piloting (Planetary) and Piloting (Space) checks the character attempts."
     },
     {
         "name": "Skilled Slicer",
-        "i": 194,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -2137,54 +2214,58 @@
     },
     {
         "name": "Smooth Talker",
-        "i": 195,
         "activation": "Active (Incidental)",
         "ranked": true,
         "trees": [
             "Trader",
+            "Quartermaster",
+            "Sage",
+            "Gambler",
+            "Advisor",
             "Performer",
-            "Charmer",
-            "Gambler"
+            "Charmer"
         ],
         "description": "When a character acquires this talent, they choose one skill: Charm, Coercion, Negotiation, or Deception. When making checks with that skill, they may spend to gain additional Success equal to their ranks in Smooth Talker."
     },
     {
         "name": "Sniper Shot",
-        "i": 196,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Mercenary Soldier"
+            "Mercenary Soldier",
+            "Sharpshooter"
         ],
         "description": "Once per round before making a non-thrown ranged attack, the character may perform a maneuver to attempt a Sniper Shot. Sniper Shot increases the maximum range of their ranged weapon up to one range band per rank. For each rank beyond the normal maximum of the weapon, upgrade the difficulty of the check by one (this is in addition to the increased difficulty of the shot due to longer range)."
     },
     {
         "name": "Soft Spot",
-        "i": 197,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Scoundrel",
             "Survivalist",
-            "Skip Tracer"
+            "Hunter",
+            "Infiltrator",
+            "Skip Tracer",
+            "Scoundrel"
         ],
         "description": "After making a successful attack with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Cunning to one hit of the successful attack."
     },
     {
         "name": "Solid Repairs",
-        "i": 198,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Mechanic",
-            "Outlaw Tech"
+            "Commodore",
+            "Artisan",
+            "Outlaw Tech",
+            "Starfighter Ace"
         ],
         "description": "The character repairs +1 hull trauma per rank of Solid Repairs whenever they repair a vehicle or starship."
     },
     {
         "name": "Sorry About the Mess",
-        "i": 199,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2194,41 +2275,41 @@
     },
     {
         "name": "Sound Investments",
-        "i": 200,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Quartermaster",
             "Entrepreneur"
         ],
         "description": "At the beginning of each game session, the character gains credits equal to their ranks in Sound Investments times 100. How this money is earned is up to the player and the GM, and could be actual investments, business dealings, or even a small legal or illegal side business. The GM can also decide that the current events of the adventure may make these funds temporarily unavailable."
     },
     {
         "name": "Spare Clip",
-        "i": 201,
         "activation": "Passive",
         "ranked": false,
         "trees": [
             "Gadgeteer",
             "Trader",
-            "Heavy"
+            "Heavy",
+            "Gunner",
+            "Recruit"
         ],
         "description": "The character does not run out of ammo on a Despair. Items with Limited Ammo quality run out of ammo as normal."
     },
     {
         "name": "Speaks Binary",
-        "i": 202,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Outlaw Tech",
             "Scholar",
-            "Droid Tech"
+            "Droid Tech",
+            "Scientist"
         ],
         "description": "The character grants 1b per rank of Speaks Binary to any tasks they direct a non-player droid to perform."
     },
     {
         "name": "Speaks Binary (Improved)",
-        "i": 203,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2238,7 +2319,6 @@
     },
     {
         "name": "Speaks Binary (Supreme)",
-        "i": 204,
         "activation": "Active (Maneuver)",
         "ranked": false,
         "trees": [
@@ -2248,7 +2328,6 @@
     },
     {
         "name": "Spitfire",
-        "i": 205,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2258,21 +2337,19 @@
     },
     {
         "name": "Stalker",
-        "i": 206,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Assassin",
-            "Scout",
-            "Survivalist",
             "Thief",
+            "Survivalist",
+            "Scout",
             "Big-Game Hunter"
         ],
         "description": "The character adds 1b per rank of Stalker to all Coordination and Stealth checks."
     },
     {
         "name": "Steady Nerves",
-        "i": 207,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -2282,63 +2359,66 @@
     },
     {
         "name": "Steely Nerves",
-        "i": 208,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Trader",
             "Politico",
-            "Trader"
+            "Peacekeeper",
+            "Ambassador",
+            "Advisor"
         ],
         "description": "The character may spend one Destiny Point to ignore the effects of ongoing Critical Injuries on any Presence or Willpower related checks until the end of the encounter. They still suffer from the injury itself."
     },
     {
         "name": "Stim Application",
-        "i": 209,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic"
         ],
         "description": "The character may take the Stim Application action. To perform this action, they must have access to drugs, a medpac, or stimpacks. They make an Average (2d) Medicine check. If successful, one ally they are engaged with (including themself) increases one characteristic of the character's choice by one for the remainder of the encounter, and suffers four strain. A single character's individual characteristics may each only be increased once by Stim Application during an encounter."
     },
     {
         "name": "Stim Application (Improved)",
-        "i": 210,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic"
         ],
         "description": "As an incidental, when performing the Stim Application action, the character may increase the difficulty of the Medicine check to Hard (3d) as an incidental. If they do so, the target of the action suffers one strain instead of four."
     },
     {
         "name": "Stim Application (Supreme)",
-        "i": 211,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Doctor"
+            "Doctor",
+            "Medic"
         ],
         "description": "When performing the Stim Application action, each Triumph may be spent to increase an additional characteristic by one."
     },
     {
         "name": "Street Smarts",
-        "i": 212,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Thief",
             "Fringer",
             "Force Sensitive Exile",
-            "Thief",
+            "Shadow",
             "Skip Tracer",
-            "Marshal",
-            "Enforcer"
+            "Enforcer",
+            "Shien Expert",
+            "Agitator",
+            "Marshal"
         ],
         "description": "Remove 1s per rank of Street Smarts from any Streetwise or Knowledge (Underworld) checks the character attempts."
     },
     {
         "name": "Street Smarts (Improved)",
-        "i": 213,
         "activation": "Active (Action)",
         "ranked": false,
         "trees": [
@@ -2348,82 +2428,83 @@
     },
     {
         "name": "Stroke of Genius",
-        "i": 214,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Scholar"
+            "Scholar",
+            "Scientist"
         ],
         "description": "Once per game session, the character can choose to make one skill check using Intellect, rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their intelligence is helping them overcome this challenge."
     },
     {
         "name": "Strong Arm",
-        "i": 215,
         "activation": "Passive",
         "ranked": false,
         "trees": [
-            "Mercenary Soldier"
+            "Mercenary Soldier",
+            "Commando"
         ],
         "description": "Characters with the Strong Arm talent treat thrown weapons as if they had one step greater range, to a maximum of medium range."
     },
     {
         "name": "Stunning Blow",
-        "i": 216,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Gadgeteer",
             "Archaeologist",
-            "Enforcer"
+            "Enforcer",
+            "Infiltrator"
         ],
         "description": "When making Melee checks, the character may choose to deal damage as strain instead of wounds. This does not ignore soak."
     },
     {
         "name": "Stunning Blow (Improved)",
-        "i": 217,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Gadgeteer"
+            "Gadgeteer",
+            "Infiltrator"
         ],
         "description": "When dealing strain damage with Melee or Brawl checks, the character may spend a Triumph result to Stagger their target for one round per Triumph spent."
     },
     {
         "name": "Superior Reflexes",
-        "i": 218,
         "activation": "Passive",
         "ranked": false,
         "trees": [
             "Force Sensitive Exile",
-            "Big-Game Hunter"
+            "Big-Game Hunter",
+            "Quartermaster"
         ],
         "description": "The character gains +1 melee defense."
     },
     {
         "name": "Surgeon",
-        "i": 219,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Doctor",
-            "Cyber Tech"
+            "Medic",
+            "Cyber Tech",
+            "Healer"
         ],
         "description": "When this character makes a Medicine check to help a character heal wounds, the target heals one additional wound per rank of Surgeon."
     },
     {
         "name": "Swift",
-        "i": 220,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Pathfinder",
             "Survivalist",
-            "Big-Game Hunter"
+            "Big-Game Hunter",
+            "Tactician"
         ],
         "description": "The character does not suffer the penalties for moving through difficult terrain (they move through it at normal speed, without spending additional maneuvers)."
     },
     {
         "name": "Talk the Talk",
-        "i": 221,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -2433,27 +2514,26 @@
     },
     {
         "name": "Targeted Blow",
-        "i": 222,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Assassin"
+            "Assassin",
+            "Sharpshooter"
         ],
         "description": "On a successful attack during combat with a non-starship/vehicle weapon, the character may spend one Destiny Point to add damage equal to their Agility to one hit of the successful attack."
     },
     {
         "name": "Technical Aptitude",
-        "i": 223,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Artisan",
             "Slicer"
         ],
         "description": "For each rank, the character reduces the amount of time needed to complete Computer-related tasks by 25%."
     },
     {
         "name": "Throwing Credits",
-        "i": 224,
         "activation": "Active",
         "ranked": false,
         "trees": [
@@ -2463,106 +2543,131 @@
     },
     {
         "name": "Time to Go",
-        "i": 225,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
-            "Demolitionist"
+            "Demolitionist",
+            "Saboteur"
         ],
         "description": "The character may spend one Destiny Point to perform a Move maneuver as an incidental. This maneuver may only be used to move into cover or out of the blast radius of an explosion. This incidental occurs after the character determines they would be hit by the blast, but before damage is applied. The GM may allow the character to use this talent in other situations to get out of harm's way, but only at the GM's discretion."
     },
     {
         "name": "Time to Go (Improved)",
-        "i": 226,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
-            "Demolitionist"
+            "Demolitionist",
+            "Saboteur"
         ],
         "description": "When activating Time to Go, the character may allow one ally they are engaged with to perform an out of turn Move maneuver as an incidental. This maneuver may only be used to move into cover or out of the blast radius of an explosion. This incidental occurs after the ally determines they would be hit by the blast, but before damage is applied."
     },
     {
         "name": "Tinkerer",
-        "i": 227,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Gadgeteer",
             "Outlaw Tech",
-            "Modder"
+            "Modder",
+            "Scientist"
         ],
         "description": "The character makes one piece of equipment more modifiable. They choose one piece of equipment and increase its number of hard points by one. They can only do this once per piece of equipment, but can modify a number of pieces of equipment equal to their ranks in Tinkerer. If they lose a modified piece of equipment, they may apply Tinkerer to a new one."
     },
     {
         "name": "Touch of Fate",
-        "i": 228,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Starfighter Ace",
+            "Force-Sensitive Emergent"
         ],
         "description": "Once per game session, the character may add 2b to any one skill check."
     },
     {
         "name": "Toughened",
-        "i": 229,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Bodyguard",
-            "Fringer",
-            "Gadgeteer",
-            "Marauder",
-            "Mechanic",
-            "Outlaw Tech",
-            "Pilot",
-            "Politico",
-            "Scholar",
-            "Scoundrel",
-            "Scout",
-            "Mercenary Soldier",
-            "Survivalist",
-            "Trader",
-            "Martial Artist",
-            "Skip Tracer",
-            "Entrepreneur",
-            "Marshal",
-            "Performer",
             "Archaeologist",
+            "Bodyguard",
+            "Saboteur",
+            "Pilot",
+            "Fringer",
+            "Driver",
+            "Advisor",
+            "Marauder",
+            "Performer",
+            "Gadgeteer",
+            "Trader",
+            "Shii-Cho Knight",
+            "Scout",
+            "Medic",
+            "Martial Artist",
+            "Tactician",
+            "Quartermaster",
+            "Marshal",
+            "Scholar",
+            "Niman Disciple",
+            "Healer",
+            "Pathfinder",
+            "Scoundrel",
+            "Infiltrator",
+            "Protector",
+            "Gunslinger",
+            "Survivalist",
+            "Gambler",
+            "Demolitionist",
+            "Mechanic",
+            "Soresu Defender",
+            "Gunner",
+            "Aggressor",
+            "Modder",
+            "Heavy",
+            "Seer",
+            "Mercenary Soldier",
+            "Skip Tracer",
             "Big-Game Hunter",
             "Enforcer",
-            "Demolitionist",
-            "Heavy",
-            "Gambler",
-            "Gunslinger",
             "Cyber Tech",
-            "Modder"
+            "Commando",
+            "Force-Sensitive Emergent",
+            "Shien Expert",
+            "Politico",
+            "Hunter",
+            "Peacekeeper",
+            "Outlaw Tech",
+            "Entrepreneur",
+            "Recruit",
+            "Sharpshooter"
         ],
         "description": "The character increases their wound threshold by two per rank of Toughened."
     },
     {
         "name": "Tricky Target",
-        "i": 230,
         "activation": "Passive",
         "ranked": false,
         "trees": [
+            "Driver",
+            "Squadron Leader",
+            "Starfighter Ace",
             "Pilot"
         ],
         "description": "Any vehicle the character pilots counts as having a silhouette one lower than normal when being attacked, to a minimum of 0."
     },
     {
         "name": "True Aim",
-        "i": 231,
         "activation": "Active (Maneuver)",
         "ranked": true,
         "trees": [
-            "Mercenary Soldier"
+            "Sharpshooter",
+            "Mercenary Soldier",
+            "Gunner"
         ],
         "description": "Once per round, before the character makes a ranged attack, they may perform a True Aim maneuver. By performing this maneuver, the character gains all the benefits for aiming and also upgrades their attack roll once per rank of True Aim."
     },
     {
         "name": "Unarmed Parry",
-        "i": 232,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2572,27 +2677,29 @@
     },
     {
         "name": "Uncanny Reactions",
-        "i": 233,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Hunter",
+            "Seer",
+            "Force-Sensitive Emergent"
         ],
         "description": "The character adds 1b per rank of Uncanny Reactions to all Vigilance checks."
     },
     {
         "name": "Uncanny Senses",
-        "i": 234,
         "activation": "Passive",
         "ranked": true,
         "trees": [
-            "Force Sensitive Exile"
+            "Force Sensitive Exile",
+            "Hunter",
+            "Force-Sensitive Emergent"
         ],
         "description": "The character adds 1b per rank of Uncanny Senses to all Perception checks."
     },
     {
         "name": "Unrelenting Skeptic",
-        "i": 235,
         "activation": "Passive",
         "ranked": false,
         "trees": [
@@ -2602,7 +2709,6 @@
     },
     {
         "name": "Unrelenting Skeptic (Improved)",
-        "i": 236,
         "activation": "Active (Incidental, Out of Turn)",
         "ranked": false,
         "trees": [
@@ -2612,7 +2718,6 @@
     },
     {
         "name": "Up the Ante",
-        "i": 237,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -2622,19 +2727,18 @@
     },
     {
         "name": "Utility Belt",
-        "i": 238,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
             "Outlaw Tech",
+            "Cyber Tech",
             "Scout",
-            "Cyber Tech"
+            "Scientist"
         ],
         "description": "The character may spend one Destiny Point to perform a Utility Belt incidental to produce a previously undocumented -- but essential -- small tool from their utility belt, satchel, or pockets, with a rarity no greater than (4). This cannot be a weapon unless the weapon has the Limited Ammo 1 quality."
     },
     {
         "name": "Utinni!",
-        "i": 239,
         "activation": "Passive",
         "ranked": true,
         "trees": [
@@ -2644,7 +2748,6 @@
     },
     {
         "name": "Walk the Walk",
-        "i": 240,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
@@ -2654,35 +2757,999 @@
     },
     {
         "name": "Well Rounded",
-        "i": 241,
         "activation": "Passive",
         "ranked": true,
         "trees": [
+            "Archaeologist",
             "Politico",
+            "Medic",
             "Scholar",
-            "Archaeologist"
+            "Shadow"
         ],
         "description": "The character chooses any two skills. They permanently become career skills."
     },
     {
         "name": "Wheel and Deal",
-        "i": 242,
         "activation": "Passive",
         "ranked": true,
         "trees": [
             "Trader",
+            "Quartermaster",
             "Entrepreneur"
         ],
         "description": "When they sell legal goods to a reputable merchant or business, the character gains an additional 10% more credits per rank of Wheel and Deal (based on the original sell price of the good or item)."
     },
     {
         "name": "Works Like a Charm",
-        "i": 243,
         "activation": "Active (Incidental)",
         "ranked": false,
         "trees": [
+            "Ambassador",
             "Charmer"
         ],
         "description": "Once per game session, the character can choose to make one skill check using Presence rather than the characteristic linked to that skill. When they do this, they must explain how, in this particular instance, their social ability helps them overcome this challenge."
+    },
+    {
+        "name": "Adversary",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "NPC only"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Basic Combat Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Careful Planning",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Scientist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Commanding Presence",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commodore",
+            "Peacekeeper",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Coordinated Assault",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Creative Killer",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Dynamic Fire",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Exhaust Port",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace",
+            "Gunner"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Fire Control",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Commodore"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force of Will",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Form on Me",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Incite Rebellion",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Agitator"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Invigorate",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "It's Not That Bad",
+        "activation": "Active (Incidental, Out of Turn",
+        "ranked": false,
+        "trees": [
+            "Medic"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Leader",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Leader",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper",
+            "Tactician"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Physical Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Plausible Deniability",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Advisor",
+            "Agitator",
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Fix",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sharpshooter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Situational Awareness",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Squadron Leader"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sleight of Mind",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Pathfinder",
+            "Shadow",
+            "Force-Sensitive Emergent"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Stimpack Specialization",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Medic",
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Tactical Combat Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Unstoppable",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Commando"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Vehicle Combat Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Well Traveled",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Recruit"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Against All Odds",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Anatomy Odds",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Animal Bond",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Animal Empathy",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Ataru Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Body Guard (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Calming Aura",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Calming Aura (Improved)",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Center of Being",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Shii-Cho Knight",
+            "Niman Disciple",
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Center of Being (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Circle of Shelter",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Comprehend Technology",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Conditioned",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Shien Expert",
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Contingency Plan",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Counterstrike",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Circle",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Defensive Training",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Makashi Duelist",
+            "Shii-Cho Knight",
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Disruptive Strike",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Djem So Deflection",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Draw Closer",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Duelist's Training",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Enhanced Leader",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Falling Avalance",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Feint",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Assault",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Force Protection",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Forwarning",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Hawk Bat Swoop",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Healing Trance",
+        "activation": "Active (Action)",
+        "ranked": true,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Healing Trance (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Imbue Item",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Evasion",
+        "activation": "Active (Maneuver)",
+        "ranked": true,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Improvementss",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Shot",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Intuitive Strike",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Starfighter Ace"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Keen Eyed",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Hunter",
+            "Pathfinder",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledge is Power",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Advisor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Knowledgeable Healing",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Healer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Finish",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Flourish",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Makashi Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Master Artisan",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Bond",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Mental Tools",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Artisan"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Multiple Opponents",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Blademaster",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natual Hunter",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Hunter"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Natural Mystic",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Niman Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Now You See Me",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "One with the Universe",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Parry (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight",
+            "Ataru Striker",
+            "Soresu Defender",
+            "Makashi Duelist",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Parry (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Physician",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Healer",
+            "Protector"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Preemptive Avoidance",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Sage",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Prey on the Weak",
+        "activation": "Passive",
+        "ranked": true,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Quick Movement",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": true,
+        "trees": [
+            "Ataru Striker",
+            "Soresu Defender",
+            "Niman Disciple",
+            "Protector",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect (Improved)",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Reflect (Supreme)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Resist Disarm",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Saber Swarm",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Saber Throw",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Ataru Striker",
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sarlaac Sweep",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shii-Cho Knight"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sense Advantage",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Advisor",
+            "Aggressor",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Share Pain",
+        "activation": "Active (Incidental, Out of Turn)",
+        "ranked": false,
+        "trees": [
+            "Pathfinder"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Shien Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Shien Expert"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Shroud",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Slippery Minded",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Shadow"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Soresu Technique",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Strategic Form",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Soresu Defender"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Sum Djem",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Makashi Duelist",
+            "Shii-Cho Knight",
+            "Niman Disciple"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Terrify",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Terrify (Improved)",
+        "activation": "Passive",
+        "ranked": false,
+        "trees": [
+            "Aggressor"
+        ],
+        "description": ""
+    },
+    {
+        "name": "The Force is My Ally",
+        "activation": "Active (Incidental)",
+        "ranked": false,
+        "trees": [
+            "Sage",
+            "Seer"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Unity Assault",
+        "activation": "Active (Maneuver)",
+        "ranked": false,
+        "trees": [
+            "Peacekeeper"
+        ],
+        "description": ""
+    },
+    {
+        "name": "Valuable Facts",
+        "activation": "Active (Action)",
+        "ranked": false,
+        "trees": [
+            "Sage"
+        ],
+        "description": ""
     }
 ]
