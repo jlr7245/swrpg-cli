@@ -65,7 +65,7 @@ class TreeNames:
     SKIP_TRACER = "Skip Tracer"
     SLICER = "Slicer"
     SORESU_DEFENDER = "Soresu Defender"
-    SORESU_DEFENDOR = "Soresu Defendor"
+    SORESU_DEFENDER = "Soresu Defender"
     SQUADRON_LEADER = "Squadron Leader"
     STARFIGHTER_ACE = "Starfighter Ace"
     SURVIVALIST = "Survivalist"
