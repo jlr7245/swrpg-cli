@@ -73,6 +73,13 @@ with open("canonical_talents_lookup.json", "w") as f:
     json.dump(talent_lookup, f, indent=4)
 
 
+"""Generates a python file of the canonical talents lookup"""
+with open("canonical_talents_lookup.py", "w") as f:
+    talent_lookup = {}
+    for talent in sorted(canonical_talents_list, key=lambda x: x["name"]):
+        talent_lookup[talent["name"]] = talent
+
+
 """Generates a TalentNames class txt file"""
 # with open("talentnames_dump.txt", "w") as f:
 #     talentnames = "class TalentNames:\n"

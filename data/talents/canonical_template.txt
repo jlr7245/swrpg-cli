@@ -1,0 +1,10 @@
+canonical_lookup = {
+    % for el in list:
+    "${el.name}": {
+        "name": ${el.name},
+        "activation": ${el.activation},
+        "ranked": ${el.ranked},
+        "description": ${el.description}
+    },
+    % endfor
+}

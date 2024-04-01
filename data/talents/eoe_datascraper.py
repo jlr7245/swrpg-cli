@@ -39,7 +39,7 @@ for i, talent in enumerate(talent_titles):
             trees = child.text.split("Trees: ")[1]
             if trees == "(all)":
                 trees = "Assassin, Bodyguard, Doctor, Force Sensitive Exile, Fringer, Gadgeteer, Marauder, Mechanic, Outlaw Tech, Pilot, Politico, Scholar, Scoundrel, Scout, Slicer, Mercenary Soldier, Survivalist, Thief, Trader"
-            new_talent["trees"] = trees.split(',').strip()
+            new_talent["trees"] = map(lambda x: x.strip(), trees.split(','))
         elif i == 7:
             new_talent["description"] = child.text.strip()
 
